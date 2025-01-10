@@ -4,58 +4,61 @@ import { Link } from "react-router-dom";
 const HomeSmallProduct = ({ name, price, data }) => {
   return (
     <div className="EveryDaySpecial_each_drug__tp1m5">
-      {/* <Link to="/product-display/glimda-2mg-tab-10s/1109865"> */}
-      <div className="MuiGrid-root SingleItemSwiper_itemContainer__pw6vx platinumrx-rfnosa">
-        <div className="MuiGrid-root SingleItemSwiper_fullDetailsContainer__H8Yx_ platinumrx-rfnosa">
-          <div className="MuiGrid-root SingleItemSwiper_substituteHeaderContainer__DtqPt platinumrx-1eqg8k8">
-            <div className="MuiGrid-root platinumrx-21c246">
-              <img
-                alt="hero_image"
-                loading="lazy"
-                width="80"
-                height="80"
-                decoding="async"
-                className="SingleItemSwiper_itemImg__chE8v"
-                src="https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=256&amp;q=80"
-              />
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "8px",
-                  alignItems: "flex-start",
-                  wordBreak: "break-word",
-                  width: "100%",
-                  overflowWrap: "anywhere",
-                }}
-              >
-                <p className="SingleItemSwiper_itemName__H_7rQ">{data.name}</p>
+      <Link to="/displaySingleProduct">
+        <div className="MuiGrid-root SingleItemSwiper_itemContainer__pw6vx platinumrx-rfnosa">
+          <div className="MuiGrid-root SingleItemSwiper_fullDetailsContainer__H8Yx_ platinumrx-rfnosa">
+            <div className="MuiGrid-root SingleItemSwiper_substituteHeaderContainer__DtqPt platinumrx-1eqg8k8">
+              <div className="MuiGrid-root platinumrx-21c246">
                 <img
-                  src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
-                  style={{ height: "20px", width: "auto" }}
-                  alt="Cipla Ltd"
+                  alt="hero_image"
+                  loading="lazy"
+                  width="80"
+                  height="80"
+                  decoding="async"
+                  className="SingleItemSwiper_itemImg__chE8v"
+                  src="https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=256&amp;q=80"
                 />
-                <div className="MuiGrid-root SingleItemSwiper_substitutePriceContainer___XfnY platinumrx-rfnosa">
-                  <div className="MuiGrid-root platinumrx-1otbfh8">
-                    <div className="MuiGrid-root SingleItemSwiper_packetSize__y0r7x platinumrx-1u692ip">
-                      {data.Package}
-                      {" of "}
-                      {Number(data.Qty) > 1
-                        ? `${data.Qty} ${data.Product_Form}'s`
-                        : `${data.Qty} ${data.Product_Form}`}
-                    </div>
-                    <div className="MuiGrid-root SingleItemSwiper_discountContainer__eRmVu platinumrx-rfnosa">
-                      <p className="SingleItemSwiper_discounted_price__kCIV6">
-                        ₹{data.MRP / 2}
-                      </p>
-                      <div className="SingleItemSwiper_discountPercentage__zqyKH">
-                        50% off
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "8px",
+                    alignItems: "flex-start",
+                    wordBreak: "break-word",
+                    width: "100%",
+                    overflowWrap: "anywhere",
+                  }}
+                >
+                  <p className="SingleItemSwiper_itemName__H_7rQ">
+                    {data.name}
+                  </p>
+                  <img
+                    src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
+                    style={{ height: "20px", width: "auto" }}
+                    alt="Cipla Ltd"
+                  />
+                  <div className="MuiGrid-root SingleItemSwiper_substitutePriceContainer___XfnY platinumrx-rfnosa">
+                    <div className="MuiGrid-root platinumrx-1otbfh8">
+                      <div className="MuiGrid-root SingleItemSwiper_packetSize__y0r7x platinumrx-1u692ip">
+                        {data.Package}
+                        {" of "}
+                        {Number(data.Qty) > 1
+                          ? `${data.Qty} ${data.Product_Form}'s`
+                          : `${data.Qty} ${data.Product_Form}`}
                       </div>
-                    </div>
-                    <div className="SingleItemSwiper_saving_container__WwxiR">
-                      <p className="SingleItemSwiper_mrp__3UHuw">
-                        MRP ₹<span>{data.MRP}</span>
-                      </p>
+                      <div className="MuiGrid-root SingleItemSwiper_discountContainer__eRmVu platinumrx-rfnosa">
+                        <p className="SingleItemSwiper_discounted_price__kCIV6">
+                          ₹{data.MRP / 2}
+                        </p>
+                        <div className="SingleItemSwiper_discountPercentage__zqyKH">
+                          50% off
+                        </div>
+                      </div>
+                      <div className="SingleItemSwiper_saving_container__WwxiR">
+                        <p className="SingleItemSwiper_mrp__3UHuw">
+                          MRP ₹<span>{data.MRP}</span>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -63,8 +66,7 @@ const HomeSmallProduct = ({ name, price, data }) => {
             </div>
           </div>
         </div>
-      </div>
-      {/* </Link> */}
+      </Link>
     </div>
   );
 };

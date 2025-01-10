@@ -37,29 +37,29 @@
   font-weight: 400;
   /* src: local("Bilo"),
     url(/_next/static/media/BiloRegular.85735f83.otf) format("opentype"); */
-  src: local("Bilo"), url(../media/BiloRegular.85735f83.otf) format("opentype");
+  /* src: local("Bilo"), url(../media/BiloRegular.otf) format("opentype"); */
+  src: local("Bilo"), url(/media/BiloRegular.otf) format("opentype");
 }
 @font-face {
   font-family: Bilo-local;
   font-weight: 500;
   /* src: local("Bilo"),
     url(/_next/static/media/Bilo\ Medium.8b178c65.otf) format("opentype"); */
-  src: local("Bilo"), url(../media/Bilo\ Medium.8b178c65.otf) format("opentype");
+  src: local("Bilo"), url(/media/BiloMedium.otf) format("opentype");
 }
 @font-face {
   font-family: Bilo-local;
   font-weight: 700;
   /* src: local("Bilo"),
     url(/_next/static/media/Bilo\ Bold.27b8bee7.otf) format("opentype"); */
-  src: local("Bilo"), url(../media/Bilo\ Bold.27b8bee7.otf) format("opentype");
+  src: local("Bilo"), url(/media/BiloBold.otf) format("opentype");
 }
 @font-face {
   font-family: Bilo-local;
   font-weight: 800;
   /* src: local("Bilo"),
     url(/_next/static/media/Bilo\ ExtraBold.79a215b2.otf) format("opentype"); */
-  src: local("Bilo"),
-    url(../media/Bilo\ ExtraBold.79a215b2.otf) format("opentype");
+  src: local("Bilo"), url(../media/BiloExtraBold.otf) format("opentype");
 }
 body,
 html {

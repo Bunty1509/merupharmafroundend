@@ -24,10 +24,7 @@ const ProductInfo = () => {
     "Manufacturer Address": "Details about the manufacturer.",
   });
   useEffect(() => {
-    console.log("Data : ", data[0]);
     const keys = Object.keys(data[0]);
-    console.log("Keys : ", keys);
-
     setTabs(keys);
     setTabContent(data[0]);
   }, [data]);

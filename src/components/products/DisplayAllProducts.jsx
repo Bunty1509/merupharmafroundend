@@ -6,10 +6,6 @@ import MedicineData from "../../assets/data/pharmaData.json";
 const DisplayAllProducts = () => {
   const [data, setData] = useState(MedicineData);
 
-  useEffect(() => {
-    console.log("Data Length : ", data.length);
-  }, [data]);
-
   return (
     <>
       <section className="container PdpComponent_pdp_page_container__AXnZ4">

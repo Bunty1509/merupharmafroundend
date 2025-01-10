@@ -54,7 +54,7 @@ const Header = () => {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24px"
-                    height="auto"
+                    // height="auto"
                     fill="none"
                     viewBox="0 0 24 24"
                     className="Searchbar_searchIconMobile__LMi1_"

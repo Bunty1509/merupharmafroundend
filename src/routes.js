@@ -6,6 +6,9 @@ const SearchProduct = React.lazy(() =>
 const DispalyAllProducts = React.lazy(() =>
   import("./components/products/DisplayAllProducts")
 );
+const DispalySingleProduct = React.lazy(() =>
+  import("./components/products/DisplaySingleProduct")
+);
 
 const routes = [
   { path: "/", name: "Home", element: Main },
@@ -14,6 +17,16 @@ const routes = [
     path: "/displayAllProducts",
     name: "Display All Products",
     element: DispalyAllProducts,
+  },
+  // {
+  //   path: "/displaySingleProduct",
+  //   name: "Display Single Product",
+  //   element: DispalySingleProduct,
+  // },
+  {
+    path: "/displaySingleProduct/:name/:productId",
+    name: "Display Single Product",
+    element: DispalySingleProduct,
   },
 ];
 
