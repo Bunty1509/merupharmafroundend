@@ -1,0 +1,58 @@
+/* Swiper Container */
+.swiper-container {
+  position: relative;
+  width: 100%;
+  padding: 20px 0; /* Space for navigation buttons */
+}
+
+/* Custom Navigation Buttons */
+.custom-swiper-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: #fd595a; /* Replace with your desired background color */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Left Button */
+.prev-button {
+  left: 10px;
+}
+
+/* Right Button */
+.next-button {
+  right: 10px;
+}
+
+/* Button Hover Effect */
+.custom-swiper-button:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .custom-swiper-button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .prev-button {
+    left: 5px;
+  }
+
+  .next-button {
+    right: 5px;
+  }
+}

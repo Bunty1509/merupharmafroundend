@@ -1,83 +1,67 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 const HomeSmallProduct = ({ name, price }) => {
   return (
-    <>
-      <div className="swiper-slide EveryDaySpecial_each_drug__tp1m5">
-        <Link to="/product-display/glimda-2mg-tab-10s/1109865">
-          <div className="MuiGrid-root SingleItemSwiper_itemContainer__pw6vx platinumrx-rfnosa">
-            <div className="MuiGrid-root SingleItemSwiper_fullDetailsContainer__H8Yx_ platinumrx-rfnosa">
-              <div className="MuiGrid-root SingleItemSwiper_substituteHeaderContainer__DtqPt platinumrx-1eqg8k8">
-                <div className="MuiGrid-root platinumrx-21c246">
-                  <img
-                    alt="hero_image"
-                    loading="lazy"
-                    width="80"
-                    height="80"
-                    decoding="async"
-                    className="SingleItemSwiper_itemImg__chE8v"
-                    src="https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=256&amp;q=80"
-                  />
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "8px",
-                      alignItems: "flex-start",
-                      wordBreak: "break-word",
-                      width: "100%",
-                      overflowWrap: "anywhere",
-                    }}
-                  >
-                    <p className="SingleItemSwiper_itemName__H_7rQ">
-                      {/* Glimda 2mg Tab 10s */}
-                      {name}
-                    </p>
-                    <img
-                      src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
-                      style={{ height: "20px", width: "auto" }}
-                      alt="Cipla Ltd"
-                    />
-                    <div className="MuiGrid-root SingleItemSwiper_substitutePriceContainer___XfnY platinumrx-rfnosa">
-                      <div className="MuiGrid-root platinumrx-1otbfh8">
-                        <div className="MuiGrid-root SingleItemSwiper_packetSize__y0r7x platinumrx-1u692ip">
-                          Strip of 10 tablets
-                        </div>
-                        <div className="MuiGrid-root SingleItemSwiper_discountContainer__eRmVu platinumrx-rfnosa">
-                          <p className="SingleItemSwiper_discounted_price__kCIV6">
-                            ₹{price}
-                            {/* 32.5 */}
-                          </p>
-                          <div className="SingleItemSwiper_discountPercentage__zqyKH">
-                            50% off
-                          </div>
-                        </div>
-                        <div className="SingleItemSwiper_saving_container__WwxiR">
-                          <p className="SingleItemSwiper_mrp__3UHuw">
-                            MRP ₹<span>65</span>
-                          </p>
-                        </div>
+    <div className="EveryDaySpecial_each_drug__tp1m5">
+      {/* <Link to="/product-display/glimda-2mg-tab-10s/1109865"> */}
+      <div className="MuiGrid-root SingleItemSwiper_itemContainer__pw6vx platinumrx-rfnosa">
+        <div className="MuiGrid-root SingleItemSwiper_fullDetailsContainer__H8Yx_ platinumrx-rfnosa">
+          <div className="MuiGrid-root SingleItemSwiper_substituteHeaderContainer__DtqPt platinumrx-1eqg8k8">
+            <div className="MuiGrid-root platinumrx-21c246">
+              <img
+                alt="hero_image"
+                loading="lazy"
+                width="80"
+                height="80"
+                decoding="async"
+                className="SingleItemSwiper_itemImg__chE8v"
+                src="https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=256&amp;q=80"
+              />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "8px",
+                  alignItems: "flex-start",
+                  wordBreak: "break-word",
+                  width: "100%",
+                  overflowWrap: "anywhere",
+                }}
+              >
+                <p className="SingleItemSwiper_itemName__H_7rQ">{name}</p>
+                <img
+                  src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
+                  style={{ height: "20px", width: "auto" }}
+                  alt="Cipla Ltd"
+                />
+                <div className="MuiGrid-root SingleItemSwiper_substitutePriceContainer___XfnY platinumrx-rfnosa">
+                  <div className="MuiGrid-root platinumrx-1otbfh8">
+                    <div className="MuiGrid-root SingleItemSwiper_packetSize__y0r7x platinumrx-1u692ip">
+                      Strip of 10 tablets
+                    </div>
+                    <div className="MuiGrid-root SingleItemSwiper_discountContainer__eRmVu platinumrx-rfnosa">
+                      <p className="SingleItemSwiper_discounted_price__kCIV6">
+                        ₹{price}
+                      </p>
+                      <div className="SingleItemSwiper_discountPercentage__zqyKH">
+                        50% off
                       </div>
-                      <button
-                        className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation"
-                        type="button"
-                        style={{ width: "100%", progressSize: "15px" }}
-                      >
-                        Add to Cart
-                      </button>
+                    </div>
+                    <div className="SingleItemSwiper_saving_container__WwxiR">
+                      <p className="SingleItemSwiper_mrp__3UHuw">
+                        MRP ₹<span>65</span>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </Link>
+        </div>
       </div>
-    </>
+      {/* </Link> */}
+    </div>
   );
 };
 const AllHomeProducts = () => {

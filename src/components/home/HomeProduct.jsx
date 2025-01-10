@@ -1,13 +1,19 @@
 import React from "react";
+import whoIcon from "../../assets/media/whoIcon.png";
 
-const HomeProduct = () => {
+const HomeProduct = ({ data }) => {
   return (
     <div className="AdvantageSection_each_drug__25ixu">
       <div className="MuiGrid-root platinumrx-1eqg8k8">
         <div className="MuiGrid-root AdvantageDrugs_itemContainer__RhsPq platinumrx-rfnosa">
           <div className="MuiGrid-root AdvantageDrugs_itemHeading__Ha7LJ platinumrx-rfnosa">
+            {/* <div className="MuiGrid-root platinumrx-rfnosa">
+              {data.salt_composition}
+            </div> */}
             <div className="MuiGrid-root platinumrx-rfnosa">
-              Glimepiride 2mg
+              {data.salt_composition.length > 40
+                ? `${data.salt_composition.substring(0, 37)}...`
+                : data.salt_composition}
             </div>
           </div>
           <div className="MuiGrid-root AdvantageDrugs_fullDetailsContainer__EZ5i2 platinumrx-rfnosa">
@@ -42,14 +48,22 @@ const HomeProduct = () => {
                   >
                     <div className="MuiGrid-root platinumrx-1poemmr">
                       <div className="MuiGrid-root AdvantageDrugs_itemName__jQxqC platinumrx-rfnosa">
-                        Amaryl 2mg Tab 30&#x27;s
+                        {data.name} {data.Qty}&#x27;s
                       </div>
                       <p className="AdvantageDrugs_manufacturerName__ZJQs8">
-                        Sanofi India Ltd
+                        {data.manufacturers}
                       </p>
                       <div className="MuiGrid-root platinumrx-rfnosa">
                         <div className="MuiGrid-root AdvantageDrugs_packetSize__7kefs platinumrx-1u692ip">
-                          Strip of 30 tablets
+                          {data.Package}
+                          {" of "}
+                          {/* {data.Qty}{" "}
+                          {parseInt(data.Qty, 10) > 1
+                            ? data.Product_Form
+                            : `${data.Product_Form}'s`} */}
+                          {Number(data.Qty) > 1
+                            ? `${data.Qty} ${data.Product_Form}'s`
+                            : `${data.Qty} ${data.Product_Form}`}
                         </div>
                         <div
                           className="MuiGrid-root platinumrx-rfnosa"
@@ -58,7 +72,7 @@ const HomeProduct = () => {
                           MRP
                         </div>
                         <p className="AdvantageDrugs_genericPrice__SQ7OB">
-                          ₹194.5
+                          ₹{data.MRP}
                         </p>
                       </div>
                     </div>
@@ -100,11 +114,8 @@ const HomeProduct = () => {
                           height: "21px",
                           marginLeft: "4px",
                         }}
-                        srcSet="
-                                      /_next/static/media/whoIcon.887be8a6.png?w=128&amp;q=80 1x,
-                                      /_next/static/media/whoIcon.887be8a6.png?w=256&amp;q=80 2x
-                                    "
-                        src="/_next/static/media/whoIcon.887be8a6.png?w=256&amp;q=80"
+                        srcSet={`${whoIcon}?w=128&amp;q=80 1x,${whoIcon}?w=256&amp;q=80 2x`}
+                        src={`${whoIcon}?w=32&amp;q=80`}
                       />
                     </div>
                     <div
@@ -117,17 +128,26 @@ const HomeProduct = () => {
                     >
                       <div className="MuiGrid-root platinumrx-1poemmr">
                         <div className="MuiGrid-root AdvantageDrugs_itemName__jQxqC platinumrx-rfnosa">
-                          Glimda 2mg Tab 10s
+                          Meru Pharma {data.salt_composition} {data.Qty}{" "}
+                          {data.Product_Form}
                         </div>
                         <img
                           src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
                           style={{ height: "20px", width: "auto" }}
-                          alt="Cipla Ltd"
+                          alt="Meru Pharma"
                         />
                         <div className="MuiGrid-root AdvantageDrugs_substitutePriceContainer__KPPJd platinumrx-rfnosa">
                           <div className="MuiGrid-root platinumrx-1otbfh8">
                             <div className="MuiGrid-root AdvantageDrugs_packetSize__7kefs platinumrx-1u692ip">
-                              Strip of 10 tablets
+                              {data.Package}
+                              {" of "}
+                              {/* {data.Qty}{" "}
+                          {parseInt(data.Qty, 10) > 1
+                            ? data.Product_Form
+                            : `${data.Product_Form}'s`} */}
+                              {Number(data.Qty) > 1
+                                ? `${data.Qty} ${data.Product_Form}'s`
+                                : `${data.Qty} ${data.Product_Form}`}
                             </div>
                             <div
                               className="MuiGrid-root platinumrx-rfnosa"
@@ -140,24 +160,13 @@ const HomeProduct = () => {
                             </div>
                             <div className="MuiGrid-root platinumrx-7i47d3">
                               <div className="MuiGrid-root AdvantageDrugs_substitutePrice__4mdqG platinumrx-rfnosa">
-                                ₹32.5
+                                ₹{data.MRP / 2}
                               </div>
                               <div className="MuiGrid-root AdvantageDrugs_discountPercentage__uVTKg platinumrx-rfnosa">
                                 50% OFF
                               </div>
                             </div>
                           </div>
-                          <button
-                            className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation platinumrx-ajfvee"
-                            tabIndex="0"
-                            type="button"
-                            style={{ width: "100%", progressSize: "15px" }}
-                            styles="[object Object]"
-                          >
-                            <span className="MuiTypography-root MuiTypography-p platinumrx-8ygzv4">
-                              Add to Cart
-                            </span>
-                          </button>
                         </div>
                       </div>
                     </div>
