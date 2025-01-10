@@ -23,7 +23,9 @@ const Main = () => {
       {chunks.map((chunk, index) => (
         <HomeProductSection key={index} medicineData={chunk} />
       ))}
-      <HomeSmallProductSection />
+      {chunks.map((chunk, index) => (
+        <HomeSmallProductSection key={`small_${index}`} medicineData={chunk} />
+      ))}
     </>
   );
 };

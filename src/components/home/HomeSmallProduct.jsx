@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const HomeSmallProduct = ({ name, price }) => {
+const HomeSmallProduct = ({ name, price, data }) => {
   return (
     <div className="EveryDaySpecial_each_drug__tp1m5">
       {/* <Link to="/product-display/glimda-2mg-tab-10s/1109865"> */}
@@ -29,7 +29,7 @@ const HomeSmallProduct = ({ name, price }) => {
                   overflowWrap: "anywhere",
                 }}
               >
-                <p className="SingleItemSwiper_itemName__H_7rQ">{name}</p>
+                <p className="SingleItemSwiper_itemName__H_7rQ">{data.name}</p>
                 <img
                   src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
                   style={{ height: "20px", width: "auto" }}
@@ -38,11 +38,15 @@ const HomeSmallProduct = ({ name, price }) => {
                 <div className="MuiGrid-root SingleItemSwiper_substitutePriceContainer___XfnY platinumrx-rfnosa">
                   <div className="MuiGrid-root platinumrx-1otbfh8">
                     <div className="MuiGrid-root SingleItemSwiper_packetSize__y0r7x platinumrx-1u692ip">
-                      Strip of 10 tablets
+                      {data.Package}
+                      {" of "}
+                      {Number(data.Qty) > 1
+                        ? `${data.Qty} ${data.Product_Form}'s`
+                        : `${data.Qty} ${data.Product_Form}`}
                     </div>
                     <div className="MuiGrid-root SingleItemSwiper_discountContainer__eRmVu platinumrx-rfnosa">
                       <p className="SingleItemSwiper_discounted_price__kCIV6">
-                        ₹{price}
+                        ₹{data.MRP / 2}
                       </p>
                       <div className="SingleItemSwiper_discountPercentage__zqyKH">
                         50% off
@@ -50,7 +54,7 @@ const HomeSmallProduct = ({ name, price }) => {
                     </div>
                     <div className="SingleItemSwiper_saving_container__WwxiR">
                       <p className="SingleItemSwiper_mrp__3UHuw">
-                        MRP ₹<span>65</span>
+                        MRP ₹<span>{data.MRP}</span>
                       </p>
                     </div>
                   </div>
