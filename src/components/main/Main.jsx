@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import HomeProduct from "../home/HomeProduct";
 import HomeProductSection from "../home/HomeProductSection";
 import HomeSmallProduct from "../home/HomeSmallProduct";
+import HomeSmallProductSection from "../home/HomeSmallProductSection";
 
 const Main = () => {
   const nav = useNavigate();
@@ -14,7 +15,7 @@ const Main = () => {
     <>
       <div>Main Product </div>
       <HomeProductSection />
-      <HomeSmallProduct />
+      <HomeSmallProductSection />
       <button onClick={() => handleClick()}> Search</button>
     </>
   );
