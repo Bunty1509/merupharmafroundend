@@ -28,6 +28,11 @@ const routes = [
     name: "Display Single Product",
     element: DispalySingleProduct,
   },
+  {
+    path: "/searchProduct/:name/:productId",
+    name: "Search Product",
+    element: SearchProduct,
+  },
 ];
 
 export default routes;
