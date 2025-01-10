@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-const HomeSmallProduct = () => {
+const HomeSmallProduct = ({ name, price }) => {
   return (
     <>
       <div className="swiper-slide EveryDaySpecial_each_drug__tp1m5">
@@ -16,13 +19,7 @@ const HomeSmallProduct = () => {
                     width="80"
                     height="80"
                     decoding="async"
-                    data-nimg="1"
                     className="SingleItemSwiper_itemImg__chE8v"
-                    style={{ color: "transparent" }}
-                    srcSet="
-                              https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=96&amp;q=80  1x,
-                              https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=256&amp;q=80 2x
-                            "
                     src="https://flexitest.gumlet.io/meds-prescriptions/c66941f6-f70c-4c0e-a9eb-f00ea6cf1dd2_wm.png?w=256&amp;q=80"
                   />
                   <div
@@ -37,7 +34,8 @@ const HomeSmallProduct = () => {
                     }}
                   >
                     <p className="SingleItemSwiper_itemName__H_7rQ">
-                      Glimda 2mg Tab 10s
+                      {/* Glimda 2mg Tab 10s */}
+                      {name}
                     </p>
                     <img
                       src="https://flexipillstorage.blob.core.windows.net/meds-prescriptions/b74ddd93-7c67-444a-be0f-05d2b4855cb9.png"
@@ -51,7 +49,8 @@ const HomeSmallProduct = () => {
                         </div>
                         <div className="MuiGrid-root SingleItemSwiper_discountContainer__eRmVu platinumrx-rfnosa">
                           <p className="SingleItemSwiper_discounted_price__kCIV6">
-                            ₹32.5
+                            ₹{price}
+                            {/* 32.5 */}
                           </p>
                           <div className="SingleItemSwiper_discountPercentage__zqyKH">
                             50% off
@@ -64,15 +63,11 @@ const HomeSmallProduct = () => {
                         </div>
                       </div>
                       <button
-                        className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation platinumrx-ajfvee"
-                        tabIndex="0"
+                        className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation"
                         type="button"
                         style={{ width: "100%", progressSize: "15px" }}
-                        styles="[object Object]"
                       >
-                        <span className="MuiTypography-root MuiTypography-p platinumrx-8ygzv4">
-                          Add to Cart
-                        </span>
+                        Add to Cart
                       </button>
                     </div>
                   </div>
@@ -82,6 +77,12 @@ const HomeSmallProduct = () => {
           </div>
         </Link>
       </div>
+    </>
+  );
+};
+const AllHomeProducts = () => {
+  return (
+    <>
       <div className="swiper-slide EveryDaySpecial_each_drug__tp1m5">
         <Link to="/product-display/azicip-500mg-tab-3s/1012891">
           <div className="MuiGrid-root SingleItemSwiper_itemContainer__pw6vx platinumrx-rfnosa">
@@ -94,7 +95,6 @@ const HomeSmallProduct = () => {
                     width="80"
                     height="80"
                     decoding="async"
-                    data-nimg="1"
                     className="SingleItemSwiper_itemImg__chE8v"
                     style={{ color: "transparent" }}
                     srcSet="
@@ -143,10 +143,8 @@ const HomeSmallProduct = () => {
                       </div>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation platinumrx-ajfvee"
-                        tabIndex="0"
                         type="button"
                         style={{ width: "100%", progressSize: "15px" }}
-                        styles="[object Object]"
                       >
                         <span className="MuiTypography-root MuiTypography-p platinumrx-8ygzv4">
                           Add to Cart
@@ -172,7 +170,6 @@ const HomeSmallProduct = () => {
                     width="80"
                     height="80"
                     decoding="async"
-                    data-nimg="1"
                     className="SingleItemSwiper_itemImg__chE8v"
                     style={{ color: "transparent" }}
                     srcSet="
@@ -221,10 +218,8 @@ const HomeSmallProduct = () => {
                       </div>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation platinumrx-ajfvee"
-                        tabIndex="0"
                         type="button"
                         style={{ width: "100%", progressSize: "15px" }}
-                        styles="[object Object]"
                       >
                         <span className="MuiTypography-root MuiTypography-p platinumrx-8ygzv4">
                           Add to Cart
@@ -250,7 +245,6 @@ const HomeSmallProduct = () => {
                     width="80"
                     height="80"
                     decoding="async"
-                    data-nimg="1"
                     className="SingleItemSwiper_itemImg__chE8v"
                     style={{ color: "transparent" }}
                     srcSet="
@@ -299,10 +293,8 @@ const HomeSmallProduct = () => {
                       </div>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation platinumrx-ajfvee"
-                        tabIndex="0"
                         type="button"
                         style={{ width: "100%", progressSize: "15px" }}
-                        styles="[object Object]"
                       >
                         <span className="MuiTypography-root MuiTypography-p platinumrx-8ygzv4">
                           Add to Cart
@@ -328,7 +320,6 @@ const HomeSmallProduct = () => {
                     width="80"
                     height="80"
                     decoding="async"
-                    data-nimg="1"
                     className="SingleItemSwiper_itemImg__chE8v"
                     style={{ color: "transparent" }}
                     srcSet="
@@ -377,10 +368,8 @@ const HomeSmallProduct = () => {
                       </div>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-containedSquared MuiButton-containedSquaredPrimary MuiButton-sizeMedium MuiButton-containedSquaredSizeMedium MuiButton-colorPrimary MuiButton-disableElevation platinumrx-ajfvee"
-                        tabIndex="0"
                         type="button"
                         style={{ width: "100%", progressSize: "15px" }}
-                        styles="[object Object]"
                       >
                         <span className="MuiTypography-root MuiTypography-p platinumrx-8ygzv4">
                           Add to Cart
