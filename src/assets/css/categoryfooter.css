@@ -1,0 +1,480 @@
+@media (min-width: 768px) {
+  .CategoryListing_categoryPage__cKhw0 {
+    margin: auto 5%;
+  }
+}
+.CategoryFooter_categoryFooter__ZC_36 {
+  padding: 16px 0;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+.CategoryFooter_footerBox__djITB {
+  padding: 0 24px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .CategoryFooter_footerBox__djITB {
+    margin: auto 5%;
+  }
+}
+.CategoryFooter_title__EPOtg {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.CategoryFooter_footerText__JOwZ1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: var(--white, #fff);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+.CategoryFooter_footerText__JOwZ1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #6d7478;
+}
+.druglist-item_itemImg__KBvIo {
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .druglist-item_itemImg__KBvIo {
+    width: 64px;
+    height: 64px;
+    min-height: 64px;
+    min-width: 64px;
+  }
+}
+.druglist-item_itemContainer__Uqt1t {
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .druglist-item_itemContainer__Uqt1t {
+    border: 1px solid var(--flexipill-grey-100, #e8e8e8);
+    background-color: #eee8fd;
+  }
+}
+.druglist-item_manufacturer_name__OPQGz {
+  text-wrap: wrap;
+  font-size: 10px;
+  color: #8e8e8e;
+  font-weight: 400;
+  padding-left: 4px;
+}
+.druglist-item_itemHeading__cWGyl {
+  border-top: 1px solid var(--Platinum-rx-Primary, #fc5a5a);
+  background: var(--Platinum-sec-Red, #ffefef);
+  color: var(--white);
+  padding: 6px 12px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+.druglist-item_itemHeadingText__uuUYU {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: var(--Platinum-RX-Grey-800, #3f3f3f);
+  font-size: 14px;
+  font-weight: 500 !important;
+  line-height: 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.druglist-item_itemMrp__aSi9J {
+  letter-spacing: 0.25px;
+  color: var(--Dark-grey, #6d7478);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.druglist-item_itemMrp__aSi9J span {
+  text-decoration: line-through;
+}
+@media (max-width: 768px) {
+  .druglist-item_itemMrp__aSi9J {
+    font-weight: 500;
+    padding: 0;
+    color: var(--black);
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+.druglist-item_fullDetailsContainer__RCxNm {
+  display: flex;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .druglist-item_fullDetailsContainer__RCxNm {
+    gap: 0;
+  }
+}
+.druglist-item_genericMedicineDetails__rdmT5 {
+  padding: 16px;
+  width: 33.5%;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--Background-Grey, #fafafa);
+}
+@media (max-width: 768px) {
+  .druglist-item_genericMedicineDetails__rdmT5 {
+    padding: 4px 8px;
+    border-radius: 0 0 0 8px;
+    border: none;
+    width: 50%;
+  }
+}
+.druglist-item_substituteHeaderContainer__ezxIX {
+  background-color: #f6fff5;
+  border-radius: 0 0 8px 8px;
+}
+.druglist-item_substituteHeaderContainer__ezxIX
+  .druglist-item_mobileHeaderContainer__JBZ79 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .druglist-item_substituteHeaderContainer__ezxIX
+    .druglist-item_substituteMedicineHeader__PXioO {
+    text-align: center;
+    padding: 4px;
+    color: #fff;
+  }
+  .druglist-item_substituteHeaderContainer__ezxIX {
+    border-radius: 0 0 8px 0;
+  }
+}
+.druglist-item_substituteMedicineDetails__0wLPq {
+  padding: 16px;
+  border-radius: 0 0 8px 8px;
+}
+@media (max-width: 768px) {
+  .druglist-item_substituteMedicineDetails__0wLPq {
+    padding: 4px 8px;
+    background-color: #f6fff5;
+    border-radius: 0 0 8px 0;
+  }
+}
+.druglist-item_itemName__YnmLq {
+  color: var(--Platinum-rx-Black, #031926);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.druglist-item_itemName__YnmLq::-webkit-scrollbar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .druglist-item_itemName__YnmLq {
+    font-size: 20px;
+    line-height: 30px;
+    white-space: normal;
+    overflow-x: visible;
+    text-overflow: unset;
+    word-break: break-word;
+  }
+}
+.druglist-item_substitutePriceContainer__75Y7h {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+  gap: 8px;
+}
+@media (max-width: 768px) {
+  .druglist-item_substitutePriceContainer__75Y7h {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    gap: 4px;
+  }
+}
+.druglist-item_genericPrice__0u9Ol,
+.druglist-item_substitutePrice__Qdsht {
+  font-weight: 500;
+  font-size: 20px;
+  color: #219653;
+}
+@media (max-width: 768px) {
+  .druglist-item_genericPrice__0u9Ol,
+  .druglist-item_substitutePrice__Qdsht {
+    padding-top: 0;
+    font-size: 16px;
+    line-height: 1;
+  }
+}
+.druglist-item_genericPrice__0u9Ol {
+  color: #000;
+}
+@media (max-width: 768px) {
+  .druglist-item_genericPrice__0u9Ol {
+    font-size: 16px;
+  }
+}
+.druglist-item_substitutePrice__Qdsht {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .druglist-item_discountedPrice__ftOvo {
+    width: 60px;
+  }
+}
+.druglist-item_SavingLabel__B_Smj {
+  position: absolute;
+  top: 0;
+  right: -16px;
+  color: var(--white);
+  width: 129px;
+  height: 37px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/_next/static/media/label.8aecb86a.png) no-repeat;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .druglist-item_SavingLabel__B_Smj {
+    width: 84px;
+    height: 24px;
+    right: -9px;
+    font-size: 12px;
+    padding-left: 12px;
+    font-weight: 300;
+  }
+}
+.druglist-item_contentContainer__OyI1B {
+  display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .druglist-item_contentContainer__OyI1B {
+    display: unset;
+  }
+}
+.druglist-item_genericContentCont__mg7Dq {
+  display: flex;
+  gap: 8px;
+  width: 60%;
+}
+.druglist-item_Quantity__y1rmm {
+  color: var(--Platinum-RX-Black-300, #68757d);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+}
+@media screen and (max-width: 768px) {
+  .druglist-item_Quantity__y1rmm {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+  }
+}
+.druglist-item_discountChip__qAfw_ {
+  background: #219653;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  padding: 4px 8px;
+  display: flex;
+  border-radius: 16px;
+  align-items: center;
+  gap: 2px;
+}
+@media (max-width: 768px) {
+  .druglist-item_discountChip__qAfw_ {
+    font-size: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .druglist-item_imgContainer__3MOmx {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px;
+  }
+  .druglist-item_manufacturerLogo__mtAuN {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+}
+.druglist-item_noitem__PyGBH {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .druglist-item_noitem__PyGBH {
+    flex-direction: column;
+  }
+}
+.druglist-item_NoitemHeading__ggRwb {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+}
+@media (max-width: 768px) {
+  .druglist-item_NoitemHeading__ggRwb {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+.druglist-item_NoitemSubHeading__Dh0Y_ {
+  color: var(--Dark-grey, #6d7478);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .druglist-item_NoitemSubHeading__Dh0Y_ {
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+  }
+}
+.druglist-item_noItemContainer__bja8_ {
+  background-color: #f6fff5;
+  width: 67.5%;
+  padding: 16px;
+  border-radius: 0 0 8px 8px;
+}
+@media (max-width: 768px) {
+  .druglist-item_noItemContainer__bja8_ {
+    border-radius: 0 0 8px 0;
+    width: 100%;
+    padding: 8px 8px 16px;
+  }
+}
+.druglist-item_saltMobileContainer__0R4yP {
+  background: var(--Platinum-sec-Red, #ffefef);
+}
+.druglist-item_saltMobileContainer__content__ILi6H {
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .druglist-item_saltMobileContainer__content__ILi6H {
+    gap: 4px;
+    justify-content: center;
+  }
+}
+.druglist-item_saltMobileContainer__title__3zs9s {
+  display: flex;
+  align-items: center;
+  color: var(--Platinum-RX-Grey-800, #3f3f3f);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.druglist-item_saltMobileContainer__titleText__9UmPF {
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .druglist-item_saltMobileContainer__titleText__9UmPF {
+    display: none;
+  }
+}
+.druglist-item_saltMobileContainer__icon__L13mN {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
+}
+.druglist-item_saltMobileContainer__composition__EsLOi {
+  display: flex;
+  color: var(--Platinum-RX-Grey-800, #3f3f3f);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.druglist-item_saltMobileContainer__composition__less_salt__B_Gip {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.druglist-item_saltMobileContainer__composition__down_arrow__N_JEN {
+  font-size: 12px;
+  cursor: pointer;
+}
+.druglist-item_saltMobileContainer__composition__up_arrow__ecDQJ {
+  font-size: 12px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.druglist-item_saltMobileContainer__composition__show_more_arrow__7QsHW {
+  margin: 8px 0 0 4px;
+  display: flex;
+  justify-content: center;
+}
+.druglist-item_substituteManufacturerName__fECQK {
+  color: var(--PlatinumRX-Secondary-900, #2f209c);
+  font-weight: 700;
+}
+.druglist-item_genericManufacturerName__Du3NS,
+.druglist-item_substituteManufacturerName__fECQK {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+}
+.druglist-item_genericManufacturerName__Du3NS {
+  color: var(--Platinum-RX-Black-400, #354751);
+  font-weight: 400;
+}
+.druglist-item_itemDetails__JhI3f {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 16px;
+  word-break: break-word;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 768px) {
+  .druglist-item_itemDetails__JhI3f {
+    padding-left: 0;
+    margin-top: 0;
+  }
+}
+.druglist-item_addtoCartContainer__0XkUC {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media (min-width: 768px) {
+  .druglist-item_addtoCartContainer__0XkUC {
+    margin-top: -12px;
+  }
+}

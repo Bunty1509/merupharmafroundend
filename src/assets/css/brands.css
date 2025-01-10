@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+  .brands-section_main__8C18J {
+    display: none;
+  }
+}
+.brands-section_icons_container__GZe7x {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+}
+.brands-section_icons_container__GZe7x .brands-section_icon___JNf_ {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+}
+.brands-section_slide__rGnVU {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  margin: 0 8px !important;
+  border-bottom: 3px solid transparent;
+}
+.brands-section_brands__img__2vSHQ {
+  width: auto !important;
+  height: 46px;
+}
+@media (max-width: 768px) {
+  .brands-section_brands__img__2vSHQ {
+    height: 32px;
+  }
+}
+.brands-section_hover_content__BPIMt {
+  background: var(--Background-Grey, #fafafa);
+  padding: 16px;
+  color: var(--Dark-grey, #6d7478);
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.brands-section_hover_content__title__7EXOY {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.brands-section_hover_content__read_more__4mT5B {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+@media (max-width: 768px) {
+  .brands-section_hover_content__BPIMt {
+    line-height: 16px;
+    margin: 0 -4.5%;
+  }
+  .brands-section_hover_content__title__7EXOY {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .brands-section_down_icon__kGfnA {
+    margin-bottom: 4px;
+  }
+}
+.brands-section_title__bPnW_ {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 20px auto;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.25px;
+}
+.brands-section_title__bPnW_:after,
+.brands-section_title__bPnW_:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 1.5px;
+}
+.brands-section_title__bPnW_:after {
+  top: 11px;
+  right: -120%;
+  left: 100%;
+  background: linear-gradient(
+    60deg,
+    var(--Platinum-Success-900, #509854),
+    transparent
+  );
+}
+@media (max-width: 768px) {
+  .brands-section_title__bPnW_:after {
+    top: 8px;
+  }
+}
+.brands-section_title__bPnW_:before {
+  right: 100%;
+  left: -120%;
+  background: linear-gradient(
+    270deg,
+    var(--Platinum-Success-900, #509854),
+    transparent
+  );
+  top: 11px;
+}
+@media (max-width: 768px) {
+  .brands-section_title__bPnW_:before {
+    top: 8px;
+  }
+}

@@ -1,0 +1,243 @@
+.HowToOrderModal_contentContainer__HcvNr {
+  padding: 24px 0;
+}
+.HowToOrderModal_middleBox__N6CMH,
+.HowToOrderModal_sideBox__N25Up {
+  border-radius: 12px;
+  padding: 16px 14px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  text-align: center;
+}
+.HowToOrderModal_middleBox__N6CMH .HowToOrderModal_easiestWay__cMsc8,
+.HowToOrderModal_sideBox__N25Up .HowToOrderModal_easiestWay__cMsc8 {
+  display: none;
+}
+.HowToOrderModal_divider__3IeUA {
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  background: #525252;
+  margin: 13px 0 !important;
+}
+.HowToOrderModal_buySteps__Phbhb {
+  width: max-content;
+}
+.HowToOrderModal_buySteps__Phbhb .HowToOrderModal_stepNumber__JXnze {
+  height: 18px;
+  min-width: 18px;
+  border-radius: 50%;
+  background: #e8e8e8;
+  text-align: center;
+}
+.HowToOrderModal_buySteps__Phbhb:last-child
+  .HowToOrderModal_dashedStepBorder__e6BMF {
+  display: none;
+}
+.HowToOrderModal_dashedStepBorder__e6BMF {
+  color: #000;
+  font-weight: 700;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-left: 1px dashed #ff0303;
+  margin: 4px 9px;
+}
+.HowToOrderModal_icon__cxpVj {
+  width: 64px;
+  height: 64px;
+}
+.LocationDrawer_main__y6qJ5 {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .LocationDrawer_main__y6qJ5 {
+    gap: 24px;
+    width: 380px;
+  }
+}
+.LocationDrawer_full_drawer__6GLAO {
+  padding: 16px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.LocationDrawer_title__yjg0y {
+  color: var(--deep-navy-blue, #031926);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+@media (min-width: 768px) {
+  .LocationDrawer_title__yjg0y {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+}
+.LocationDrawer_current_location__qDxVu {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  color: var(--primary-color, #fc5a5a);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.LocationDrawer_current_location__icon___2QVv {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .LocationDrawer_current_location__qDxVu {
+    border-radius: 8px;
+    background: var(--Platinum-sec-Red, #ffefef);
+    padding: 8px 12px;
+    gap: 12px;
+  }
+}
+.LocationDrawer_addresses__iYqd4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .LocationDrawer_addresses__iYqd4 {
+    gap: 24px;
+  }
+}
+.LocationDrawer_address__details__chLrk {
+  color: var(--black, #000);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+@media (min-width: 768px) {
+  .LocationDrawer_address__details__chLrk {
+    font-size: 18px;
+  }
+}
+.LocationDrawer_formatted_address__YezAH {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--Platinum-Dark-grey, #6d7478);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.LocationDrawer_divider__1GU2F {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: var(--Platinum-RX-Grey-100, #ebebeb);
+  border-radius: 8px;
+}
+.LocationDrawer_view_more__m6fmd {
+  color: var(--primary-color, #fc5a5a);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+.LocationDrawer_add_pincode__r9fHs {
+  display: flex;
+  gap: 16px;
+}
+.LocationDrawer_add_pincode__input__UwADW {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--Platinum-Dark-grey, #6d7478);
+}
+.LocationDrawer_add_pincode__input__UwADW:focus {
+  outline: none;
+}
+.LocationDrawer_add_pincode__button__zhc3K {
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--primary-color, #fc5a5a);
+  color: var(--white, #fff);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.LocationDrawer_add_pincode__error__awiUV {
+  color: var(--primary-color, #fc5a5a);
+  font-size: 14px;
+  font-weight: 500;
+}
+.LocationDrawer_container__qLdrk {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.LocationDrawer_proceed_btn__F5auZ {
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--primary-color, #fc5a5a);
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+.LocationDrawer_container__qLdrk input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.LocationDrawer_checkmark__RvWv_ {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-color: var(--white, #fff);
+  border-radius: 50%;
+  border: 2.5px solid #eee;
+}
+.LocationDrawer_container__qLdrk:hover
+  input
+  ~ .LocationDrawer_checkmark__RvWv_ {
+  border: 2.5px solid #ccc;
+}
+.LocationDrawer_container__qLdrk
+  input:checked
+  ~ .LocationDrawer_checkmark__RvWv_ {
+  border: 2.5px solid var(--primary-color, #fc5a5a);
+}
+.LocationDrawer_checkmark__RvWv_:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.LocationDrawer_container__qLdrk
+  input:checked
+  ~ .LocationDrawer_checkmark__RvWv_:after {
+  display: block;
+}
+.LocationDrawer_container__qLdrk .LocationDrawer_checkmark__RvWv_:after {
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--primary-color, #fc5a5a);
+}

@@ -1,0 +1,105 @@
+.NoItemComponent_itemImg__E1CuF {
+  min-width: 125px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 125px;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  background-color: var(--white, #fff);
+}
+@media (max-width: 1200px) {
+  .NoItemComponent_itemImg__E1CuF {
+    min-width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .NoItemComponent_itemImg__E1CuF {
+    min-width: 78px;
+    height: 78px;
+  }
+}
+.NoItemComponent_itemImgPLP__7nKbp {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 64px;
+}
+.NoItemComponent_noitem__K_T3j {
+  display: flex;
+  height: 100%;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .NoItemComponent_noitem__K_T3j {
+    flex-direction: column;
+  }
+}
+.NoItemComponent_noitem__content__qfxOg {
+  height: 100%;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.NoItemComponent_NoitemHeading__JGEmh {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+@media (max-width: 768px) {
+  .NoItemComponent_NoitemHeading__JGEmh {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.NoItemComponent_NoitemSubHeading__35ZLz {
+  color: var(--Dark-grey, #6d7478);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .NoItemComponent_NoitemSubHeading__35ZLz {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+.NoItemComponent_CallitemSubHeading__bUN_4 {
+  color: var(--Dark-grey, #6d7478);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .NoItemComponent_CallitemSubHeading__bUN_4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.NoItemComponent_noItemComponent__rYYL4 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .NoItemComponent_noItemComponent__rYYL4 {
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    display: unset;
+  }
+}
+.NoItemComponent_call_btn__9guRK {
+  background-color: #fff;
+  border: 1px solid #fc5a5a;
+  color: #fc5a5a;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+}

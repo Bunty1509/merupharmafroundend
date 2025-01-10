@@ -1,0 +1,114 @@
+.AdvantageDrugs_itemImg__cZcZn {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid var(--Background-Grey, #fafafa);
+  width: 60px;
+  height: 60px;
+}
+.AdvantageDrugs_itemContainer__RhsPq {
+  border-radius: 8px;
+  width: 292px;
+  border: 1px solid var(--flexipill-grey-100, #e8e8e8);
+  background-color: #eee8fd;
+}
+.AdvantageDrugs_itemHeading__Ha7LJ {
+  border-radius: 8px 8px 0 0;
+  background: var(--primary-color, #fc5a5a);
+  border: 1px solid var(--primary-color, #fc5a5a);
+  min-height: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: var(--Platinum-rx-white, #fff);
+  text-align: center;
+  padding: 4px 2px;
+}
+.AdvantageDrugs_itemMrp__iI_n_ {
+  color: #8e8e8e;
+  font-size: 14px;
+  min-height: 280px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-decoration: line-through;
+  padding: unset;
+}
+.AdvantageDrugs_fullDetailsContainer__EZ5i2 {
+  display: flex;
+}
+.AdvantageDrugs_genericMedicineDetails__ZlHGp {
+  width: 100%;
+  border-radius: 0 0 0 8px;
+  padding: 8px 12px;
+  min-height: 280px;
+  background: var(--Platinum-rx-white, #fff);
+  border: none;
+}
+.AdvantageDrugs_substituteHeaderContainer__7Z3LV {
+  border-radius: 0 0 8px 0;
+  padding: 8px 12px;
+  background: var(--Success-Light-Green, #f6fff3);
+  min-height: 280px;
+}
+.AdvantageDrugs_itemName__jQxqC {
+  color: var(--Platinum-rx-Black, #031926);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.AdvantageDrugs_packetSize__7kefs {
+  color: var(--Platinum-RX-Black-300, #68757d);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  margin-bottom: 4px;
+}
+.AdvantageDrugs_genericPrice__SQ7OB,
+.AdvantageDrugs_substitutePrice__4mdqG {
+  color: var(--Platinum-Success-900, #509854);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.AdvantageDrugs_genericPrice__SQ7OB {
+  color: #000;
+}
+.AdvantageDrugs_discountPercentage__uVTKg {
+  background-color: var(--Platinum-Success-900, #509854);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--Platinum-rx-white, #fff);
+  letter-spacing: 0.25px;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+.AdvantageDrugs_substitutePriceContainer__KPPJd {
+  width: 100%;
+}
+.AdvantageDrugs_manufacturerName__ZJQs8 {
+  color: var(--Platinum-RX-Black-300, #68757d);
+  font-size: 12px;
+  font-weight: 400;
+  height: 32px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
