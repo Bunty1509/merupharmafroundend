@@ -41,6 +41,11 @@ const routes = [
     name: "Name Search",
     element: NameSearchPage,
   },
+  {
+    path: "/nameSearchPage/:name",
+    name: "Name Search with Query",
+    element: NameSearchPage,
+  },
 ];
 
 export default routes;

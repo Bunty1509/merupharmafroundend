@@ -76,7 +76,7 @@
 }
 .order-details_cancelled_text__8dlOZ {
   font-size: 20px;
-  color: #fc5a5a;
+  color: #006068;
 }
 .order-details_cancelled_details__bjOCE {
   display: flex;
@@ -91,7 +91,7 @@
   color: #6d747d;
 }
 .order-details_cancelled_reason__8Dvv3.order-details_mark__RR8TM {
-  border: 1px solid #fc5a5a;
+  border: 1px solid #006068;
   margin: 16px 16px 16px 0;
 }
 .order-details_billing_address_container__ToXG6 {
@@ -206,8 +206,8 @@
 .order-details_order_info__track_btn__SVSES {
   padding: 2px 8px;
   cursor: pointer;
-  color: var(--Platinum-rx-Primary, #fc5a5a);
-  border: 1px solid var(--Platinum-rx-Primary, #fc5a5a);
+  color: var(--Platinum-rx-Primary, #006068);
+  border: 1px solid var(--Platinum-rx-Primary, #006068);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -281,7 +281,7 @@
   height: 24px;
 }
 .order-details_help_section__call_us__gjyhO {
-  background: var(--Platinum-rx-Primary, #fc5a5a);
+  background: var(--Platinum-rx-Primary, #006068);
 }
 @media (min-width: 768px) {
   .order-details_order_status__fDNjX {

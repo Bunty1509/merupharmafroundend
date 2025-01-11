@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #fc5a5a;
+  /* --primary-color: #fc5a5a; */
+  --primary-color: #006068;
   --Platinum-rx-Black: #031926;
   --light-pink: #ffebeb;
   --Platinum-sec-Red: #ffefef;
@@ -220,9 +221,9 @@ img {
   color: #fff !important;
 }
 .Mui-selected {
-  color: #f44d4d !important;
-  border-bottom: 4px solid #f44d4d !important;
-  background-color: #fddbdb !important;
+  color: #006068 !important;
+  border-bottom: 4px solid #003640 !important;
+  background-color: #b5dce0 !important;
 }
 .loginModal .MuiDialog-paper {
   border-radius: 8px !important;
@@ -248,7 +249,7 @@ img {
 }
 .addressPatSelectionMobile .MuiFormGroup-root .selectedItemLabel {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
-  border: 1px solid #fc5a5a !important;
+  border: 1px solid #006068 !important;
 }
 .addressPatSelectionMobile .MuiFormControlLabel-root {
   border-radius: 12px;
@@ -304,7 +305,7 @@ img {
   line-height: 20px;
   letter-spacing: 0.25px;
   border-radius: 8px;
-  background: var(--Platinum-rx-Primary, #fc5a5a);
+  background: var(--Platinum-rx-Primary, #006068);
   padding: 10px;
 }
 @media (min-width: 768px) {

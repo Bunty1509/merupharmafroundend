@@ -215,8 +215,8 @@
   height: 25px;
 }
 .NoInteractionDrawer_callBtn__ZmK2O {
-  border: 1px solid var(--primary-color, #fc5a5a);
-  background: var(--primary-color, #fc5a5a);
+  border: 1px solid var(--primary-color, #006068);
+  background: var(--primary-color, #006068);
 }
 .NoInteractionDrawer_callBtn__ZmK2O .NoInteractionDrawer_btnImg__TEU11 {
   width: 21px;
@@ -283,8 +283,8 @@
   height: 25px;
 }
 .no-interaction-modal_callBtn__oaj_W {
-  border: 1px solid var(--primary-color, #fc5a5a);
-  background: var(--primary-color, #fc5a5a);
+  border: 1px solid var(--primary-color, #006068);
+  background: var(--primary-color, #006068);
 }
 .no-interaction-modal_callBtn__oaj_W .no-interaction-modal_btnImg__VJJB6 {
   width: 21px;
@@ -305,7 +305,7 @@
   padding: 6px 4%;
   justify-content: space-between;
   gap: 8px;
-  background: var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
 }
 @media (min-width: 768px) {
   .AlertBar_AlertContainer__kNqBq {
@@ -546,7 +546,8 @@
   font-size: 12px;
   font-weight: 600;
   line-height: 20px;
-  color: #e86060;
+  /* color: #e86060; */
+  color: #5cf0f0;
 }
 .login-modal_otpInput___lbQ5 {
   width: 42px;

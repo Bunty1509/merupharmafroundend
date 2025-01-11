@@ -20,7 +20,7 @@
   color: #323232;
 }
 .faq-accordion_expandIcon__iiUUb {
-  color: #fc5a5a;
+  color: #006068;
 }
 .faq-accordion_list__izGr6 {
   padding-left: 20px;
@@ -133,7 +133,7 @@
 }
 .desktop-view_copy_link__fKiBp .desktop-view_tap_to_copy__LHqRo {
   cursor: pointer;
-  color: var(--primary-color, #fc5a5a);
+  color: var(--primary-color, #006068);
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.25px;
@@ -168,7 +168,7 @@
   background: linear-gradient(0deg, #2bb540, #52ca5f);
 }
 .desktop-view_sharing_options__QH0ZO .desktop-view_share__yTkjU {
-  background: var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
 }
 .desktop-view_sharing_options__QH0ZO .desktop-view_sharing_icons__gtpeI {
   font-size: 24px;
@@ -487,7 +487,7 @@
 }
 .referrals_headerDesktop__tYgk_ .referrals_active__iNqxl {
   background: var(--Platinum-sec-Red, #ffefef);
-  border-bottom: 1px solid var(--primary-color, #fc5a5a);
+  border-bottom: 1px solid var(--primary-color, #006068);
   transition: all 0.3s ease-in-out;
 }
 .referrals_headerDesktop__tYgk_ .referrals_coin_icon__nJVE_,
@@ -520,7 +520,7 @@
 }
 .referrals_headerMobile__S_T_A .referrals_active__iNqxl {
   background: var(--Platinum-sec-Red, #ffefef);
-  border-bottom: 1px solid var(--primary-color, #fc5a5a);
+  border-bottom: 1px solid var(--primary-color, #006068);
   transition: all 0.3s ease-in-out;
 }
 .referrals_headerMobile__S_T_A .referrals_coin_icon__nJVE_,
@@ -618,7 +618,7 @@
   cursor: pointer;
 }
 .share-refer-link_sharing_options__XhGSg .share-refer-link_share__usxHb {
-  background: var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
   cursor: pointer;
 }
 .share-refer-link_sharing_options__XhGSg
@@ -1186,7 +1186,7 @@
 .view-all-transactions-drawer_header__xmcr0
   .view-all-transactions-drawer_active__taAa_ {
   background: var(--Platinum-sec-Red, #ffefef);
-  border-bottom: 1px solid var(--primary-color, #fc5a5a);
+  border-bottom: 1px solid var(--primary-color, #006068);
   transition: all 0.3s ease-in-out;
 }
 .view-all-transactions-drawer_header__xmcr0
@@ -2010,8 +2010,8 @@
 }
 .SingleItemSwiper_itemHeading__zGI2s {
   border-radius: 8px 8px 0 0;
-  background: var(--primary-color, #fc5a5a);
-  border: 1px solid var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
+  border: 1px solid var(--primary-color, #006068);
   min-height: 32px;
   font-size: 14px;
   font-weight: 500;
@@ -2153,7 +2153,7 @@
   align-items: center;
 }
 .CartItems_header__btn__SZmek {
-  color: var(--Platinum-rx-Primary, #fc5a5a);
+  color: var(--Platinum-rx-Primary, #006068);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -2565,7 +2565,7 @@
   height: auto;
 }
 .DoctorOpinion_loweContent__title__4AY8n {
-  color: var(--Platinum-rx-Primary, #fc5a5a);
+  color: var(--Platinum-rx-Primary, #006068);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -2945,7 +2945,7 @@
   align-items: center;
 }
 .re-order_header__btn__bEMwu {
-  color: var(--Platinum-rx-Primary, #fc5a5a);
+  color: var(--Platinum-rx-Primary, #006068);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -2997,8 +2997,8 @@
 }
 .re-order_order__hgpsi .re-order_order_details__btn__CO_n5 {
   border-radius: 4px;
-  border: 1px solid var(--Platinum-rx-Primary, #fc5a5a);
-  background: var(--Platinum-rx-Primary, #fc5a5a);
+  border: 1px solid var(--Platinum-rx-Primary, #006068);
+  background: var(--Platinum-rx-Primary, #006068);
   padding: 2px 8px;
   color: var(--white, #fff);
   font-size: 14px;

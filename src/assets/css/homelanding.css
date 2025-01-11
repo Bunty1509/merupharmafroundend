@@ -1602,7 +1602,7 @@ button.swiper-pagination-bullet {
   width: 120px;
   height: 80px;
   background-color: hsla(0, 100%, 97%, 0.188);
-  border: 1px solid #fc5a5a;
+  border: 1px solid #006068;
   border-radius: 8px;
   position: absolute;
   z-index: 2;
@@ -1724,7 +1724,7 @@ button.swiper-pagination-bullet {
 }
 .pre-delivery_predelivery__pincode__btn__WKA_D,
 .pre-delivery_predelivery_cart__pincode__btn__qd_bt {
-  color: var(--primary-color, #fc5a5a);
+  color: var(--primary-color, #006068);
 }
 @media (min-width: 768px) {
   .pre-delivery_predelivery__X_eo1 {
@@ -1795,7 +1795,7 @@ button.swiper-pagination-bullet {
   gap: 8px;
   align-items: center;
   cursor: pointer;
-  color: var(--primary-color, #fc5a5a);
+  color: var(--primary-color, #006068);
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -1853,7 +1853,7 @@ button.swiper-pagination-bullet {
   border-radius: 8px;
 }
 .eta-drawer_view_more__cTm3X {
-  color: var(--primary-color, #fc5a5a);
+  color: var(--primary-color, #006068);
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -1876,7 +1876,7 @@ button.swiper-pagination-bullet {
 .eta-drawer_add_pincode__button__CSrLj {
   padding: 8px;
   border-radius: 8px;
-  background: var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
   color: var(--white, #fff);
   font-size: 14px;
   font-weight: 400;
@@ -1884,7 +1884,7 @@ button.swiper-pagination-bullet {
   letter-spacing: 0.25px;
 }
 .eta-drawer_add_pincode__error__yTyVu {
-  color: var(--primary-color, #fc5a5a);
+  color: var(--primary-color, #006068);
   font-size: 14px;
   font-weight: 500;
 }
@@ -1900,7 +1900,7 @@ button.swiper-pagination-bullet {
 .eta-drawer_proceed_btn__Kz2_V {
   padding: 8px;
   border-radius: 8px;
-  background: var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -1926,7 +1926,7 @@ button.swiper-pagination-bullet {
   border: 2.5px solid #ccc;
 }
 .eta-drawer_container__lv4c_ input:checked ~ .eta-drawer_checkmark__N1MlN {
-  border: 2.5px solid var(--primary-color, #fc5a5a);
+  border: 2.5px solid var(--primary-color, #006068);
 }
 .eta-drawer_checkmark__N1MlN:after {
   content: "";
@@ -1944,5 +1944,5 @@ button.swiper-pagination-bullet {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--primary-color, #fc5a5a);
+  background: var(--primary-color, #006068);
 }

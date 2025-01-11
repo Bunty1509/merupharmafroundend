@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HomeSmallProduct = ({ name, price, data }) => {
+  const encodedName = encodeURIComponent(data.name);
   return (
     <div className="EveryDaySpecial_each_drug__tp1m5">
-      <Link to="/displaySingleProduct">
+      <Link to={`/displaySingleProduct/${encodedName}/${data.Product_id}`}>
         <div className="MuiGrid-root SingleItemSwiper_itemContainer__pw6vx platinumrx-rfnosa">
           <div className="MuiGrid-root SingleItemSwiper_fullDetailsContainer__H8Yx_ platinumrx-rfnosa">
             <div className="MuiGrid-root SingleItemSwiper_substituteHeaderContainer__DtqPt platinumrx-1eqg8k8">

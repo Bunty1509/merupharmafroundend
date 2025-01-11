@@ -10,13 +10,18 @@ const DisplaySingleProduct = () => {
   const { name, productId } = useParams();
 
   useEffect(() => {
+    console.log("Product Id");
+
     const findProduct = medicineData.filter(
       (medData) => medData.Product_id === productId
     );
+    console.log("Find Product ", findProduct);
+    console.log("Prev Data :", data);
 
     if (findProduct.length > 0) {
       setData(findProduct[0]);
     }
+    console.log("Data : ", data);
   }, [productId]);
 
   return (
