@@ -9,21 +9,21 @@ const AlertBar = () => {
       <div className="AlertBar_AlertContainer__kNqBq">
         <div className="AlertBar_LeftSide__13VCo">
           <p className="AlertBar_AlertText__ZWdzG">
-            Flat ₹100 OFF on First app order | <span> Use Code: </span> APP100 |
+            Meru PharmaRx | <span> Best Pharmacy in Anantapur </span>
           </p>
           <div className="AlertBar_mobile_contianer__rgf6Z">
             <p className="AlertBar_AlertTextMobile__qjwvl">
-              <b>Flat ₹100 OFF</b> <br />
-              on First app order
+              <b>Meru PharmaRx</b> <br />
+              {/* in Anantapur */}
             </p>
             <div className="AlertBar_divider__mZDdW"></div>
             <p className="AlertBar_AlertTextMobileSpan__W0Tdl">
-              Use Code <br />
-              <b>APP100</b>
+              Best Pharmacy <br />
+              <b>in Anantapur</b>
             </p>
           </div>
         </div>
-        <div className="AlertBar_download__X_cdJ">
+        {/* <div className="AlertBar_download__X_cdJ">
           <img
             alt=""
             loading="lazy"
@@ -62,7 +62,7 @@ const AlertBar = () => {
               ${PlayStoreIcon}?w=48&amp;q=80 2x`}
             src={`${PlayStoreIcon}?w=48&amp;q=80`}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
