@@ -60,21 +60,21 @@ const Footer = () => {
         <div className="MuiGrid-root Footer_footerInfoSection__Gp0JO platinumrx-rfnosa">
           <h4>Company</h4>
           <p>
-            <a href="/best-online-pharmacy">
-              Best Pharmacy in Anantapur, Andhra Pradesh, India
-            </a>
+            {/* <a href="/best-online-pharmacy"> */}
+            Best Pharmacy in Anantapur, Andhra Pradesh, India
+            {/* </a> */}
           </p>
           <p>
-            <a href="/buy-medicine-online-with-discount">
-              Buy Medicines Online With Discount
-            </a>
+            {/* <a href="/buy-medicine-online-with-discount"> */}
+            Buy Medicines Online With Discount
+            {/* </a> */}
           </p>
-          <p>
+          {/* <p>
             <a href="/privacy-policy">Privacy Policy</a>
           </p>
           <p>
             <a href="/legal-policy">Terms of Use</a>
-          </p>
+          </p> */}
           <p style={{ visibility: "hidden", marginTop: "0px" }}>
             <a href="/brands-with-us">Our Brands</a>
           </p>
@@ -172,12 +172,12 @@ const Footer = () => {
         <div className="MuiGrid-root Footer_footerInfoSection__Gp0JO platinumrx-rfnosa">
           <h4>Contact Us</h4>
           <p>
-            <a href="mailto:care@platinumrx.in" target="_blank">
-              care@platinumrx.in
+            <a href="mailto:info@merupharma.com" target="_blank">
+              info@merupharma.com
             </a>
           </p>
           <p>
-            <a href="tel:+91 96069 73756">+91 96069 73756</a>
+            <a href="tel:+919063636606">+91 9063636606</a>
           </p>
         </div>
         <div className="MuiGrid-root Footer_socialIcons__hm0h4 platinumrx-rfnosa">

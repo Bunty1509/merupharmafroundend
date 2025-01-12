@@ -1,5 +1,5 @@
 import React from "react";
-import chip1 from "../../assets/media/chip1.png";
+import saltImage from "../../assets/media/saltimage.png";
 import chip2 from "../../assets/media/chip2.png";
 import chip3 from "../../assets/media/chip3.png";
 
@@ -18,10 +18,10 @@ const NameSearchPage = () => {
               className="product-listing_chipIcon__RWzS2"
               style={{ color: "transparent" }}
               srcSet={`
-                ${chip1}?w=32&amp;q=80 1x,
-                ${chip1}?w=64&amp;q=80 2x
+                ${saltImage}?w=32&amp;q=80 1x,
+                ${saltImage}?w=64&amp;q=80 2x
               `}
-              src={`${chip1}?w=64&amp;q=80`}
+              src={`${saltImage}?w=64&amp;q=80`}
             />
             <p>
               Exact Same
@@ -95,10 +95,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -257,10 +257,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -419,10 +419,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -579,10 +579,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -739,10 +739,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -901,10 +901,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -1063,10 +1063,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -1225,10 +1225,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -1387,10 +1387,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -1547,10 +1547,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -1707,10 +1707,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -1869,10 +1869,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2031,10 +2031,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2193,10 +2193,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2355,10 +2355,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2515,10 +2515,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2675,10 +2675,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2802,10 +2802,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -2911,10 +2911,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -3020,10 +3020,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -3129,10 +3129,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -3238,10 +3238,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -3346,10 +3346,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -3455,10 +3455,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
@@ -3565,10 +3565,10 @@ const NameSearchPage = () => {
                         decoding="async"
                         className="druglist-item_saltMobileContainer__icon__L13mN"
                         srcSet={`
-                            ${chip1}?w=32&amp;q=80 1x,
-                            ${chip1}?w=64&amp;q=80 2x
+                            ${saltImage}?w=32&amp;q=80 1x,
+                            ${saltImage}?w=64&amp;q=80 2x
                           `}
-                        src={`${chip1}?w=64&amp;q=80`}
+                        src={`${saltImage}?w=64&amp;q=80`}
                         style={{ color: "transparent" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
