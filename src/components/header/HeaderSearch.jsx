@@ -153,7 +153,7 @@ const HeaderSearch = () => {
         <div className="hero-section_tagLine__uVf_7">
           Save upto 50% on Medicine Bills
         </div>
-        <div className="hero-section_waveCont__V5fMC">
+        {/* <div className="hero-section_waveCont__V5fMC">
           <img
             alt="wave-animation"
             loading="lazy"
@@ -162,13 +162,13 @@ const HeaderSearch = () => {
             decoding="async"
             className="hero-section_animated__f0Ub5"
             srcSet={`
-        ${wave}?w=256&amp;q=80 1x,
-        ${wave}?w=384&amp;q=80 2x
-      `}
+              ${wave}?w=256&amp;q=80 1x,
+              ${wave}?w=384&amp;q=80 2x
+            `}
             src={`${wave}?w=384&amp;q=80`}
             style={{ color: "transparent" }}
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
