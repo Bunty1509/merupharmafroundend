@@ -14,7 +14,7 @@ const InputSuggesstions = ({ searchQuery, setSearchQuery }) => {
   };
 
   useEffect(() => {
-    console.log("Search Word :", searchQuery);
+    // console.log("Search Word :", searchQuery);
     if (searchQuery !== "" && searchQuery.trim().length >= 3) {
       const lowerCaseQuery = searchQuery.toLowerCase();
       const queryParts = lowerCaseQuery.split(" ");
@@ -34,10 +34,6 @@ const InputSuggesstions = ({ searchQuery, setSearchQuery }) => {
       setSearchResults([]);
     }
   }, [searchQuery]);
-
-  useEffect(() => {
-    console.log("Filter Results :", searchResults);
-  }, [searchResults]);
 
   useEffect(() => {
     const handleResize = () => {

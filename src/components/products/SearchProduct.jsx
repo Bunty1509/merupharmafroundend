@@ -260,10 +260,10 @@ const SearchProduct = () => {
                                           y2="7.68"
                                           gradientUnits="userSpaceOnUse"
                                         >
-                                          <stop stop-color="#19730A"></stop>
+                                          <stop stopColor="#19730A"></stop>
                                           <stop
                                             offset="1"
-                                            stop-color="#25BC0D"
+                                            stopColor="#25BC0D"
                                           ></stop>
                                         </linearGradient>
                                       </defs>
@@ -410,7 +410,7 @@ const SearchProduct = () => {
                                               r="2.391"
                                               fill="#fff"
                                               stroke="#106A15"
-                                              stroke-width="0.435"
+                                              strokeWidth="0.435"
                                             ></circle>
                                           </svg>
                                           <p className="drug-pdp-item_discountLabelText__X5bK2">
