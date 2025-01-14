@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import wave from "../../assets/media/wave.png";
 import { useNavigate } from "react-router-dom";
 import InputSuggesstions from "./InputSuggesstions";
+import medicineData from "../../assets/data/pharmaData.json";
 
 const HeaderSearch = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -23,10 +24,14 @@ const HeaderSearch = () => {
           queryParts.every((part) => lowerCaseNameParts.includes(part)) // Match all parts of the name
         );
       });
-
+      setSearchQuery("");
       // Redirect based on the result
       if (findProduct) {
-        navigate(`/searchProduct/${encodedQuery}/${findProduct.Product_id}`);
+        navigate(
+          `/searchProduct/${encodeURIComponent(findProduct.name)}/${
+            findProduct.Product_id
+          }`
+        );
       } else {
         navigate(`/nameSearchPage/${encodedQuery}`);
       }
@@ -91,18 +96,8 @@ const HeaderSearch = () => {
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyPress={handleKeyPress} // Trigger search on Enter key
                 />
-                {/* <span
-                  style={{
-                    cursor: "pointer",
-                    display: searchQuery === "" ? "none" : "inline", // Use a ternary operator
-                  }}
-                  onClick={() => setSearchQuery("")}
-                >
-                  X
-                </span> */}
                 <button
                   className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium platinumrx-148fdm8"
-                  tabindex="0"
                   type="button"
                   aria-label="clear-search"
                   style={{
@@ -116,23 +111,25 @@ const HeaderSearch = () => {
                     focusable="false"
                     // aria-hidden="true"
                     viewBox="0 0 24 24"
-                    dataTestid="ClearIcon"
+                    data-testid="ClearIcon"
                   >
                     <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
                   </svg>
-                  {/* <span className="MuiTouchRipple-root platinumrx-w0pj6f">
-                    X
-                  </span> */}
                 </button>
                 <button className="Searchbar_searchBtnLanding__HdOMy">
                   Search
                 </button>
               </div>
-              {searchQuery !== "" && <InputSuggesstions />}
+              {searchQuery !== "" && (
+                <InputSuggesstions
+                  searchQuery={searchQuery}
+                  setSearchQuery={setSearchQuery}
+                />
+              )}
             </div>
           </div>
         </div>
-        <div className="Location_location__5iM6X">
+        {/* <div className="Location_location__5iM6X">
           <p>
             Delivering to <span>HSR Layout</span>
           </p>
@@ -152,7 +149,7 @@ const HeaderSearch = () => {
               ></path>
             </svg>
           </div>
-        </div>
+        </div> */}
         <div className="hero-section_tagLine__uVf_7">
           Save upto 50% on Medicine Bills
         </div>

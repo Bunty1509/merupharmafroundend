@@ -1,45 +1,8 @@
-import React, { useState } from "react";
 import AlertBar from "../alertbar/AlertBar";
-import { Link, useNavigate } from "react-router-dom";
-import medicineData from "../../assets/data/pharmaData.json";
+import { Link } from "react-router-dom";
 import HeaderSearch from "./HeaderSearch";
 
 const Header = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const navigate = useNavigate();
-
-  const handleSearch = () => {
-    if (searchQuery.trim()) {
-      const encodedQuery = encodeURIComponent(searchQuery);
-      const lowerCaseQuery = searchQuery.toLowerCase();
-      const queryParts = lowerCaseQuery.split(" ");
-
-      // Find matching product by name or Product_id
-      const findProduct = medicineData.find((medData) => {
-        const lowerCaseNameParts = medData.name.toLowerCase().split(" ");
-        const lowerCaseProductId = String(medData.Product_id).toLowerCase();
-
-        // Check if query matches Product_id or parts of the name
-        return (
-          lowerCaseProductId.includes(lowerCaseQuery) || // Match Product_id
-          queryParts.every((part) => lowerCaseNameParts.includes(part)) // Match all parts of the name
-        );
-      });
-
-      // Redirect based on the result
-      if (findProduct) {
-        navigate(`/searchProduct/${encodedQuery}/${findProduct.Product_id}`);
-      } else {
-        navigate(`/nameSearchPage/${encodedQuery}`);
-      }
-    }
-  };
-
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter") {
-      handleSearch();
-    }
-  };
   return (
     <>
       <AlertBar />
@@ -94,7 +57,16 @@ const Header = () => {
                   alignItems: "center",
                 }}
               >
-                <div style={{ marginRight: "20px" }}>
+                <div
+                  style={{
+                    marginRight: "20px",
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    alignContent: "center",
+                    justifyContent: "center",
+                  }}
+                >
                   <Link to="/">
                     <svg
                       width="27"
@@ -128,10 +100,14 @@ const Header = () => {
                     </clipPath> */}
                       </defs>
                     </svg>
-                    <p>
-                      Meru Pharma<span style={{ fontWeight: "400" }}>Rx</span>
-                    </p>
                   </Link>
+                  <p
+                    style={{ marginLeft: "4px" }}
+                    className="Searchbar_searchIconMobile__LMi1_"
+                  >
+                    Meru Pharma
+                    <span style={{ fontWeight: "400" }}>Rx</span>
+                  </p>
                 </div>
               </div>
             </div>

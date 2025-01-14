@@ -216,7 +216,7 @@ const DisplaySingleProduct = () => {
                                       className="drug-pdp-item_brandAndAssured__PlatinumShield__qjePn"
                                     >
                                       <path
-                                        fill="#F44D4D"
+                                        fill="#036068"
                                         fillRule="evenodd"
                                         d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                         clipRule="evenodd"
@@ -243,7 +243,7 @@ const DisplaySingleProduct = () => {
                                   className="drug-pdp-item_brandAndAssuredMobile__icon__mPJUp"
                                 >
                                   <path
-                                    fill="#F44D4D"
+                                    fill="#036068"
                                     fillRule="evenodd"
                                     d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                     clipRule="evenodd"
@@ -375,7 +375,7 @@ const DisplaySingleProduct = () => {
                                         className="drug-pdp-item_brandAndAssured__PlatinumShield__qjePn"
                                       >
                                         <path
-                                          fill="#F44D4D"
+                                          fill="#036068"
                                           fillRule="evenodd"
                                           d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                           clipRule="evenodd"
@@ -402,7 +402,7 @@ const DisplaySingleProduct = () => {
                                     className="drug-pdp-item_brandAndAssuredMobile__icon__mPJUp"
                                   >
                                     <path
-                                      fill="#F44D4D"
+                                      fill="#036068"
                                       fillRule="evenodd"
                                       d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                       clipRule="evenodd"

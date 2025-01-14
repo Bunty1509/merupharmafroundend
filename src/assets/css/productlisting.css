@@ -16,7 +16,7 @@
 }
 .product-listing_RowHeader__xPwBq {
   display: flex;
-  z-index: 1;
+  /* z-index: 1; */
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
@@ -126,7 +126,7 @@
 
 .product-listing_RowHeader__xPwBq {
   display: flex;
-  z-index: 1;
+  /* z-index: 1; */
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;

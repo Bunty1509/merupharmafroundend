@@ -221,7 +221,18 @@ const SearchProduct = () => {
                               </div>
                               <div className="DesktopView_genricBelowCont__c7wew">
                                 <div>
-                                  <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
+                                  <div className="drug-pdp-item_productPrice__s6uPn">
+                                    <div className="drug-pdp-item_priceContainer__tjypd">
+                                      <div>
+                                        <p className="drug-pdp-item_genericPrice__Tlx6p">
+                                          ₹{data.MRP}
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div className="drug-pdp-item_unitPrice__WeO5v false">
+                                      ₹ {data.MRP / data.Qty} / ml
+                                    </div>
+                                  </div>
                                 </div>
                                 <div className="DesktopView_genricBelowCont__boxAnimated__qX0xB">
                                   <div className="DesktopView_genricBelowCont__arrowBox__PCM7Q">
@@ -249,10 +260,10 @@ const SearchProduct = () => {
                                           y2="7.68"
                                           gradientUnits="userSpaceOnUse"
                                         >
-                                          <stop stopColor="#19730A"></stop>
+                                          <stop stop-color="#19730A"></stop>
                                           <stop
                                             offset="1"
-                                            stopColor="#25BC0D"
+                                            stop-color="#25BC0D"
                                           ></stop>
                                         </linearGradient>
                                       </defs>
@@ -368,7 +379,61 @@ const SearchProduct = () => {
                                 </div>
                                 <div className="DesktopView_genricBelowCont__c7wew">
                                   <div>
-                                    <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
+                                    <div className="drug-pdp-item_productPrice__s6uPn">
+                                      <div className="drug-pdp-item_priceContainer__tjypd">
+                                        <p className="drug-pdp-item_substitutePrice__yIVMU">
+                                          ₹{data.MRP / 2}
+                                        </p>
+                                        <div>
+                                          <p className="drug-pdp-item_itemMrp__U2B8Q">
+                                            MRP ₹<span>{data.MRP}</span>
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div className="drug-pdp-item_unitPrice__WeO5v false">
+                                        ₹{data.MRP / (2 * data.Qty)} / ml
+                                        <div className="drug-pdp-item_discountLabel__DM5Y6">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="64"
+                                            height="24"
+                                            fill="none"
+                                            viewBox="0 0 56 20"
+                                          >
+                                            <path
+                                              fill="#509854"
+                                              d="M.427 3.478A3.48 3.48 0 0 1 3.905 0H47.36c1.108 0 2.15.528 2.804 1.421L54.82 7.77a3.48 3.48 0 0 1 .041 4.055l-4.7 6.695A3.48 3.48 0 0 1 47.313 20H3.905A3.48 3.48 0 0 1 .427 16.52z"
+                                            ></path>
+                                            <circle
+                                              cx="48.251"
+                                              cy="9.999"
+                                              r="2.391"
+                                              fill="#fff"
+                                              stroke="#106A15"
+                                              stroke-width="0.435"
+                                            ></circle>
+                                          </svg>
+                                          <p className="drug-pdp-item_discountLabelText__X5bK2">
+                                            50% OFF
+                                          </p>
+                                        </div>
+                                      </div>
+                                      <div className="drug-pdp-item_SavingLabel__cUg1g">
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          fill="none"
+                                          viewBox="0 0 23 22"
+                                        >
+                                          <path
+                                            fill="#fff"
+                                            d="m19.323 11 1.012-1.749A.917.917 0 0 0 20 7.999l-1.75-1.012V4.97a.917.917 0 0 0-.917-.917h-2.016l-1.011-1.75a.92.92 0 0 0-.913-.45.9.9 0 0 0-.34.115l-1.75 1.012-1.75-1.013a.917.917 0 0 0-1.253.336l-1.012 1.75H5.272a.917.917 0 0 0-.916.917v2.016L2.605 7.998A.915.915 0 0 0 2.27 9.25L3.282 11 2.27 12.749a.92.92 0 0 0 .334 1.253l1.75 1.012v2.016a.917.917 0 0 0 .917.916h2.017L8.3 19.698a.93.93 0 0 0 .794.459c.16 0 .318-.043.459-.124l1.749-1.012 1.75 1.012a.917.917 0 0 0 1.253-.335l1.011-1.75h2.016a.917.917 0 0 0 .916-.917v-2.016L20 14.002a.92.92 0 0 0 .335-1.253zM9.01 6.408a1.375 1.375 0 1 1 0 2.75 1.375 1.375 0 0 1 0-2.75m.275 8.8-1.466-1.1 5.5-7.333 1.466 1.1zm4.309.366a1.376 1.376 0 1 1 0-2.751 1.376 1.376 0 0 1 0 2.751"
+                                          ></path>
+                                        </svg>
+                                        64% More Savings
+                                      </div>
+                                    </div>
                                     <div>
                                       <div className="customer-trust_purchased_frequency__s0OL2">
                                         <div className="customer-trust_who_cont__onCYN">
@@ -385,7 +450,7 @@ const SearchProduct = () => {
                                             ></path>
                                           </svg>
                                           <p className="customer-trust_random_value__u_x0W">
-                                            2,894+ Customers trust this
+                                            2,950+ Customers trust this
                                           </p>
                                         </div>
                                         <div className="customer-trust_divider__Dk6cQ"></div>
@@ -396,14 +461,14 @@ const SearchProduct = () => {
                                             width="16"
                                             height="16"
                                             decoding="async"
-                                            // data-nimg="1"
+                                            data-nimg="1"
                                             className="customer-trust_purchased_frequency__icon__9WNbN"
-                                            style={{ color: "transparent" }}
                                             srcSet={`
-                                          ${who}?w=16&amp;q=80 1x,
-                                          ${who}?w=32&amp;q=80 2x
-                                        `}
+              ${who}?w=16&amp;q=80 1x,
+              ${who}?w=32&amp;q=80 2x
+            `}
                                             src={`${who}?w=32&amp;q=80`}
+                                            style={{ color: "transparent" }}
                                           />
                                           <p className="customer-trust_who_text__W_7aD">
                                             WHO GMP Certified
@@ -446,7 +511,7 @@ const SearchProduct = () => {
                                         className="drug-pdp-item_brandAndAssured__PlatinumShield__qjePn"
                                       >
                                         <path
-                                          fill="#F44D4D"
+                                          fill="#036068"
                                           fillRule="evenodd"
                                           d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                           clipRule="evenodd"
@@ -473,7 +538,7 @@ const SearchProduct = () => {
                                     className="drug-pdp-item_brandAndAssuredMobile__icon__mPJUp"
                                   >
                                     <path
-                                      fill="#F44D4D"
+                                      fill="#036068"
                                       fillRule="evenodd"
                                       d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                       clipRule="evenodd"
@@ -508,21 +573,6 @@ const SearchProduct = () => {
                                   <div className="swiper-pagination"></div>
                                 </div>
                               </div>
-                              {/* <img
-                            alt="PlatinumRx Hindi Video"
-                            loading="lazy"
-                            width="444"
-                            height="432"
-                            decoding="async"
-                            // data-nimg="1"
-                            className="MobileView_itemVideo__3dNQk"
-                            style={{ color: "transparent" }}
-                            srcSet={`
-                             ${Thumbnail}?w=640&amp;q=80  1x,
-                              ${Thumbnail}?w=1080&amp;q=80 2x
-                            `}
-                            src={`${Thumbnail}?w=1080&amp;q=80`}
-                          /> */}
                             </div>
                             <div className="MobileView_textContainer__VXMVH">
                               <div className="MobileView_displayName__3sqND">
@@ -551,9 +601,45 @@ const SearchProduct = () => {
                               </div>
                               <div className="MobileView_genricBelowCont__POKNp">
                                 <div className="MobileView_genricBelowCont__price_and_Assured__5bx_c">
-                                  <div className="drug-pdp-item_productPrice__s6uPn drug-pdp-item_isLoading___7_iS">
-                                    <h2></h2>
-                                    <p></p>
+                                  <div className="drug-pdp-item_productPrice__s6uPn">
+                                    <div className="drug-pdp-item_priceContainer__tjypd">
+                                      <p className="drug-pdp-item_substitutePrice__yIVMU">
+                                        ₹264
+                                      </p>
+                                      <div>
+                                        <p className="drug-pdp-item_itemMrp__U2B8Q">
+                                          MRP ₹<span>880</span>
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div className="drug-pdp-item_unitPrice__WeO5v false">
+                                      ₹4.4 / ml
+                                      <div className="drug-pdp-item_discountLabel__DM5Y6">
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="64"
+                                          height="24"
+                                          fill="none"
+                                          viewBox="0 0 56 20"
+                                        >
+                                          <path
+                                            fill="#509854"
+                                            d="M.427 3.478A3.48 3.48 0 0 1 3.905 0H47.36c1.108 0 2.15.528 2.804 1.421L54.82 7.77a3.48 3.48 0 0 1 .041 4.055l-4.7 6.695A3.48 3.48 0 0 1 47.313 20H3.905A3.48 3.48 0 0 1 .427 16.52z"
+                                          ></path>
+                                          <circle
+                                            cx="48.251"
+                                            cy="9.999"
+                                            r="2.391"
+                                            fill="#fff"
+                                            stroke="#106A15"
+                                            strokeWidth="0.435"
+                                          ></circle>
+                                        </svg>
+                                        <p className="drug-pdp-item_discountLabelText__X5bK2">
+                                          64% OFF
+                                        </p>
+                                      </div>
+                                    </div>
                                   </div>
                                   <div className="drug-pdp-item_brandAndAssured__QRxjJ">
                                     <div>
@@ -584,7 +670,7 @@ const SearchProduct = () => {
                                           className="drug-pdp-item_brandAndAssured__PlatinumShield__qjePn"
                                         >
                                           <path
-                                            fill="#F44D4D"
+                                            fill="#036068"
                                             fillRule="evenodd"
                                             d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                             clipRule="evenodd"
@@ -594,7 +680,7 @@ const SearchProduct = () => {
                                             d="M6.676 13.945h-.349c-1.068 0-1.934-.915-1.934-2.035v-.027c0-1.12.866-2.034 1.934-2.034h.233c.169 0 .312.148.312.327a.32.32 0 0 1-.312.328h-.233c-.724 0-1.316.618-1.316 1.385v.026c0 .761.592 1.385 1.316 1.385h.349c.17 0 .312.148.312.328a.32.32 0 0 1-.312.328zM9.579 10.51h-1.84a.32.32 0 0 1-.312-.328.32.32 0 0 1 .312-.328h1.84c.729 0 1.321-.624 1.321-1.39s-.592-1.39-1.321-1.39h-.233c-.73 0-1.321.624-1.321 1.39v.518a.32.32 0 0 1-.312.328.32.32 0 0 1-.312-.328v-.518c0-1.131.872-2.046 1.945-2.046h.233c1.073 0 1.945.92 1.945 2.046s-.872 2.046-1.945 2.046M12.628 13.945h-.254a.323.323 0 0 1-.312-.328.32.32 0 0 1 .312-.327h.254c.724 0 1.316-.619 1.316-1.385v-.026c0-.762-.592-1.385-1.316-1.385h-.344a.323.323 0 0 1-.312-.328.32.32 0 0 1 .312-.328h.344c1.067 0 1.94.915 1.94 2.035v.027c0 1.12-.873 2.035-1.94 2.035zM9.626 17.386h-.222c-1.068 0-1.935-.92-1.935-2.045s.867-2.046 1.935-2.046h1.93c.168 0 .311.148.311.328a.32.32 0 0 1-.312.328h-1.93c-.723 0-1.315.623-1.315 1.39s.592 1.39 1.316 1.39h.222c.724 0 1.316-.624 1.316-1.39v-.518a.32.32 0 0 1 .312-.328.32.32 0 0 1 .312.328v.518c0 1.13-.867 2.045-1.935 2.045z"
                                           ></path>
                                         </svg>
-                                        Platinum
+                                        MeruPharma
                                         <span style={{ fontWeight: "400" }}>
                                           Rx
                                         </span>
@@ -611,7 +697,7 @@ const SearchProduct = () => {
                                       className="drug-pdp-item_brandAndAssuredMobile__icon__mPJUp"
                                     >
                                       <path
-                                        fill="#F44D4D"
+                                        fill="#036068"
                                         fillRule="evenodd"
                                         d="M.503 4.378c-1.237 9.514 1.691 17.908 8.996 19.25 7.305-1.342 10.239-9.736 8.996-19.25C15.33 3.511 12.332 2.328 9.5.371 6.666 2.327 3.67 3.511.503 4.378"
                                         clipRule="evenodd"
@@ -621,7 +707,7 @@ const SearchProduct = () => {
                                         d="M6.676 13.945h-.349c-1.068 0-1.934-.915-1.934-2.035v-.027c0-1.12.866-2.034 1.934-2.034h.233c.169 0 .312.148.312.327a.32.32 0 0 1-.312.328h-.233c-.724 0-1.316.618-1.316 1.385v.026c0 .761.592 1.385 1.316 1.385h.349c.17 0 .312.148.312.328a.32.32 0 0 1-.312.328zM9.579 10.51h-1.84a.32.32 0 0 1-.312-.328.32.32 0 0 1 .312-.328h1.84c.729 0 1.321-.624 1.321-1.39s-.592-1.39-1.321-1.39h-.233c-.73 0-1.321.624-1.321 1.39v.518a.32.32 0 0 1-.312.328.32.32 0 0 1-.312-.328v-.518c0-1.131.872-2.046 1.945-2.046h.233c1.073 0 1.945.92 1.945 2.046s-.872 2.046-1.945 2.046M12.628 13.945h-.254a.323.323 0 0 1-.312-.328.32.32 0 0 1 .312-.327h.254c.724 0 1.316-.619 1.316-1.385v-.026c0-.762-.592-1.385-1.316-1.385h-.344a.323.323 0 0 1-.312-.328.32.32 0 0 1 .312-.328h.344c1.067 0 1.94.915 1.94 2.035v.027c0 1.12-.873 2.035-1.94 2.035zM9.626 17.386h-.222c-1.068 0-1.935-.92-1.935-2.045s.867-2.046 1.935-2.046h1.93c.168 0 .311.148.311.328a.32.32 0 0 1-.312.328h-1.93c-.723 0-1.315.623-1.315 1.39s.592 1.39 1.316 1.39h.222c.724 0 1.316-.624 1.316-1.39v-.518a.32.32 0 0 1 .312-.328.32.32 0 0 1 .312.328v.518c0 1.13-.867 2.045-1.935 2.045z"
                                       ></path>
                                     </svg>
-                                    PlatinumRx <br />
+                                    MeruPharmaRx <br />
                                     Assured
                                   </div>
                                 </div>

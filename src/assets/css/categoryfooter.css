@@ -251,7 +251,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/_next/static/media/label.8aecb86a.png) no-repeat;
+  /* background: url(/_next/static/media/label.8aecb86a.png) no-repeat; */
+  background: url(/media/label.png) no-repeat;
   background-size: cover;
 }
 @media (max-width: 768px) {
@@ -394,6 +395,7 @@
 }
 .druglist-item_saltMobileContainer__titleText__9UmPF {
   white-space: nowrap;
+  color: #e8e8e8;
 }
 @media (max-width: 768px) {
   .druglist-item_saltMobileContainer__titleText__9UmPF {

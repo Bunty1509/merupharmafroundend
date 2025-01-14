@@ -16,11 +16,11 @@ const NameSearchPage = React.lazy(() =>
 const routes = [
   { path: "/", name: "Home", element: Main },
   // { path: "/searchProduct", name: "SearchProduct", element: SearchProduct },
-  // {
-  //   path: "/displayAllProducts",
-  //   name: "Display All Products",
-  //   element: DispalyAllProducts,
-  // },
+  {
+    path: "/displayAllProducts",
+    name: "Display All Products",
+    element: DispalyAllProducts,
+  },
   // {
   //   path: "/displaySingleProduct",
   //   name: "Display Single Product",

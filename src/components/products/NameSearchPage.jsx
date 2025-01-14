@@ -99,7 +99,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -261,7 +261,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -423,7 +423,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -583,7 +583,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -743,7 +743,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -905,7 +905,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -1067,7 +1067,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -1229,7 +1229,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -1391,7 +1391,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -1551,7 +1551,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -1711,7 +1711,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -1873,7 +1873,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -2035,7 +2035,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -2197,7 +2197,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -2359,7 +2359,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -2519,7 +2519,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition in both
@@ -2679,7 +2679,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -2806,7 +2806,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -2915,7 +2915,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -3024,7 +3024,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -3133,7 +3133,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -3242,7 +3242,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -3350,7 +3350,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -3459,7 +3459,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition
@@ -3569,7 +3569,7 @@ const NameSearchPage = () => {
                             ${saltImage}?w=64&amp;q=80 2x
                           `}
                         src={`${saltImage}?w=64&amp;q=80`}
-                        style={{ color: "transparent" }}
+                        style={{ color: "transparent", display: "none" }}
                       />
                       <div className="druglist-item_saltMobileContainer__titleText__9UmPF">
                         Salt Composition

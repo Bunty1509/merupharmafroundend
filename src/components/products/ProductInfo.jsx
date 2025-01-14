@@ -35,7 +35,7 @@ const ProductInfo = ({ productInfo }) => {
       {data.Product_id && (
         <div>
           <div className="more-about_moreAboutContainer__3DyQC">
-            <p>More About MINKESH FORTE</p>
+            <p>More About {data.name}</p>
             <div className="MuiTabs-root platinumrx-th6vv1">
               <div className="MuiTabs-scroller">
                 {tabs.map((tab) => (

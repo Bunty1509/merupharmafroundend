@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const handleClick = (event) => {
@@ -69,10 +70,11 @@ const Footer = () => {
             Buy Medicines Online With Discount
             {/* </a> */}
           </p>
-          {/* <p>
-            <a href="/privacy-policy">Privacy Policy</a>
-          </p>
           <p>
+            {/* <a href="/privacy-policy">Privacy Policy</a> */}
+            <Link to="/displayAllProducts">Display All Products</Link>
+          </p>
+          {/* <p>
             <a href="/legal-policy">Terms of Use</a>
           </p> */}
           <p style={{ visibility: "hidden", marginTop: "0px" }}>
