@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AlertBar from "../alertbar/AlertBar";
 import { Link, useNavigate } from "react-router-dom";
 import medicineData from "../../assets/data/pharmaData.json";
+import HeaderSearch from "./HeaderSearch";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -127,87 +128,10 @@ const Header = () => {
                     </clipPath> */}
                       </defs>
                     </svg>
+                    <p>
+                      Meru Pharma<span style={{ fontWeight: "400" }}>Rx</span>
+                    </p>
                   </Link>
-                </div>
-                {/* <div className="MuiGrid-root Searchbar_searchBar__nvN1E Searchbar_headerSearchBar__tOt_C platinumrx-rfnosa">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    // height="auto"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="Searchbar_searchIconMobile__LMi1_"
-                    cursor="pointer"
-                  >
-                    <path
-                      fill="#006068"
-                      fillRule="evenodd"
-                      d="M12.225 5.275a.94.94 0 0 1 0 1.325l-4.024 4.025h9.924a.937.937 0 1 1 0 1.875H8.201l4.024 4.025A.937.937 0 0 1 10.9 17.85l-5.625-5.625a.937.937 0 0 1 0-1.325L10.9 5.275a.937.937 0 0 1 1.325 0"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                  <div className="MuiGrid-root platinumrx-14ft4qk">
-                    &nbsp;&nbsp;
-                  </div>
-                  <div className="MuiGrid-root platinumrx-gz2xqh"></div>
-                  <hr className="MuiDivider-root MuiDivider-middle MuiDivider-vertical MuiDivider-flexItem platinumrx-s1md9o" />
-                  <input
-                    placeholder="Search your Medicines"
-                    className="Searchbar_searchInput__x6r9u Searchbar_headerSearchInput__IGw_V"
-                    type="text"
-                    // value=""
-                  />
-                </div> */}
-                <div className="MuiGrid-root Searchbar_searchBar__nvN1E Searchbar_headerSearchBar__tOt_C platinumrx-rfnosa">
-                  <input
-                    placeholder="Search your Medicines"
-                    className="Searchbar_searchInput__x6r9u Searchbar_headerSearchInput__IGw_V"
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    onKeyPress={handleKeyPress} // Trigger search on Enter key
-                  />
-                  <span
-                    style={{
-                      cursor: "pointer",
-                      display: searchQuery === "" ? "none" : "inline", // Use a ternary operator
-                    }}
-                    onClick={() => setSearchQuery("")}
-                  >
-                    X
-                  </span>
-                  <button
-                    onClick={handleSearch}
-                    style={{
-                      backgroundColor: "#006068",
-                      color: "#fff",
-                      // border: "none",
-                      padding: "8px 8px",
-                      cursor: "pointer",
-                      borderRadius: "4px",
-                      marginLeft: "8px",
-                      display: "flex",
-                      alignItems: "center",
-                      borderRadius: "40px",
-                    }}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      // style={{ marginRight: "4px" }}
-                    >
-                      <path
-                        fill="#fff"
-                        fillRule="evenodd"
-                        d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm-9 7a9 9 0 1 1 18 0 9 9 0 0 1-18 0zm19.707 10.293a1 1 0 0 0-1.414-1.414L16 20.586l1.414 1.414 4.293-4.293z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                    {/* Search */}
-                  </button>
                 </div>
               </div>
             </div>
@@ -247,6 +171,7 @@ const Header = () => {
           {/* </div> */}
         </div>
       </div>
+      <HeaderSearch />
     </>
   );
 };
