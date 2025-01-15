@@ -2,20 +2,28 @@ import React, { useEffect, useState } from "react";
 import medicineData from "../../assets/data/pharmaData.json";
 import { useNavigate } from "react-router-dom";
 
-const InputSuggesstions = ({ searchQuery, setSearchQuery }) => {
+const InputSuggesstions = ({
+  searchQuery,
+  setSearchQuery,
+  setDisplaySuggestions,
+  displaySuggestions,
+}) => {
   const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 768);
   const [searchResults, setSearchResults] = useState([]);
   const nav = useNavigate();
 
   const routeProduct = (data) => {
     const encode = encodeURIComponent(data.name);
-    setSearchQuery("");
+    // setSearchQuery("");
+    setDisplaySuggestions(false);
     nav(`/searchProduct/${data.name}/${data.Product_id}`);
   };
 
   useEffect(() => {
     // console.log("Search Word :", searchQuery);
     if (searchQuery !== "" && searchQuery.trim().length >= 3) {
+      setDisplaySuggestions(true);
+
       const lowerCaseQuery = searchQuery.toLowerCase();
       const queryParts = lowerCaseQuery.split(" ");
       // Filter the data list based on query parts
@@ -31,6 +39,7 @@ const InputSuggesstions = ({ searchQuery, setSearchQuery }) => {
 
       setSearchResults(filteredResults);
     } else {
+      setDisplaySuggestions(false);
       setSearchResults([]);
     }
   }, [searchQuery]);
@@ -52,7 +61,8 @@ const InputSuggesstions = ({ searchQuery, setSearchQuery }) => {
   return (
     <>
       {isWideScreen
-        ? searchResults.length > 0 && (
+        ? searchResults.length > 0 &&
+          displaySuggestions && (
             <ul className="false Searchbar_searchResults__yEh7_">
               {searchResults.map((srcData, index) => (
                 <li
@@ -77,7 +87,8 @@ const InputSuggesstions = ({ searchQuery, setSearchQuery }) => {
               ))}
             </ul>
           )
-        : searchResults.length > 0 && (
+        : searchResults.length > 0 &&
+          displaySuggestions && (
             <ul className="Searchbar_search_bar_results__ZDY__ Searchbar_searchResults__yEh7_">
               {searchResults.map((srcMobData, index) => (
                 <li

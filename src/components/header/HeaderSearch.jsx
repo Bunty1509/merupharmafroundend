@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import wave from "../../assets/media/wave.png";
 import { useNavigate } from "react-router-dom";
 import InputSuggesstions from "./InputSuggesstions";
@@ -7,6 +7,7 @@ import medicineData from "../../assets/data/pharmaData.json";
 const HeaderSearch = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
+  const [displaySuggestions, setDisplaySuggestions] = useState(false);
   const handleSearch = () => {
     if (searchQuery.trim()) {
       const encodedQuery = encodeURIComponent(searchQuery);
@@ -24,7 +25,8 @@ const HeaderSearch = () => {
           queryParts.every((part) => lowerCaseNameParts.includes(part)) // Match all parts of the name
         );
       });
-      setSearchQuery("");
+      // setSearchQuery("");
+      setDisplaySuggestions(false);
       // Redirect based on the result
       if (findProduct) {
         navigate(
@@ -43,6 +45,7 @@ const HeaderSearch = () => {
       handleSearch();
     }
   };
+
   return (
     <>
       <div className="hero-section_heroSection__frxoZ">
@@ -120,12 +123,18 @@ const HeaderSearch = () => {
                   Search
                 </button>
               </div>
-              {searchQuery !== "" && (
+              {/* {searchQuery !== "" && (
                 <InputSuggesstions
                   searchQuery={searchQuery}
                   setSearchQuery={setSearchQuery}
                 />
-              )}
+              )} */}
+              <InputSuggesstions
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
+                displaySuggestions={displaySuggestions}
+                setDisplaySuggestions={setDisplaySuggestions}
+              />
             </div>
           </div>
         </div>
