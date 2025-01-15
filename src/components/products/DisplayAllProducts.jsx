@@ -46,6 +46,13 @@ const DisplayAllProducts = () => {
 
   return (
     <section>
+      <div className="pagination">
+        <Pagination
+          totalPages={totalPages}
+          currentPage={currentPage}
+          onPageChange={handlePage}
+        />
+      </div>
       <div className="product-listing_container___XHEM">
         {data.length > 0
           ? data.map((item, index) => (

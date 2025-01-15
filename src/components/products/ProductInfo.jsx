@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import medicineData from "../../assets/data/pharmaData.json";
+import ProductQuestion from "./ProductQuestion";
 
 const ProductInfo = ({ productInfo }) => {
   const [tabs, setTabs] = useState([
@@ -24,9 +25,7 @@ const ProductInfo = ({ productInfo }) => {
 
   useEffect(() => {
     if (productInfo.Product_id) {
-      //   const keys = Object.keys(productInfo);
       setData(productInfo);
-      //   setTabs(keys);
       setTabContent(productInfo);
     }
   }, [productInfo]);
@@ -51,6 +50,28 @@ const ProductInfo = ({ productInfo }) => {
                 ))}
               </div>
               <div className="MuiTypography-root">{tabContent[activeTab]}</div>
+            </div>
+          </div>
+          <div
+            className="more-about_moreAboutContainer__3DyQC"
+            style={{
+              marginTop: "5px",
+
+              display: "flex",
+              flexDirection: "column",
+              alignContent: "center",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <p>Question and Answers for {data.name}</p>
+            <div
+              className="MuiTabs-root platinumrx-th6vv1"
+              style={{ fontSize: "1rem" }}
+            >
+              {tabContent["Q_A"] !== null && tabContent["Q_A"] !== "" && (
+                <ProductQuestion rawData={tabContent["Q_A"]} />
+              )}
             </div>
           </div>
           <div className="MuiGrid-root platinumrx-rfnosa">
