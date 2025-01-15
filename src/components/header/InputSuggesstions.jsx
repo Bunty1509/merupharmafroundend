@@ -14,9 +14,9 @@ const InputSuggesstions = ({
 
   const routeProduct = (data) => {
     const encode = encodeURIComponent(data.name);
-    // setSearchQuery("");
+    setSearchQuery(data.name);
     setDisplaySuggestions(false);
-    nav(`/searchProduct/${data.name}/${data.Product_id}`);
+    nav(`/searchProduct/${encode}/${data.Product_id}`);
   };
 
   useEffect(() => {
