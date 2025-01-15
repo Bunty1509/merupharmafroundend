@@ -3,7 +3,7 @@ import saltImage from "../../assets/media/saltimage.png";
 import chip2 from "../../assets/media/chip2.png";
 import chip3 from "../../assets/media/chip3.png";
 import NoProductInfo from "./NoProductInfo";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import medicineData from "../../assets/data/pharmaData.json";
 
 const NameSearchPage = () => {
@@ -114,8 +114,8 @@ const NameSearchPage = () => {
             </div>
             {data.map((nameData, index) => (
               <div key={`nameData_${index}`}>
-                <a
-                  href={`/searchProduct/${encodeURIComponent(nameData.name)}/${
+                <Link
+                  to={`/searchProduct/${encodeURIComponent(nameData.name)}/${
                     nameData.Product_id
                   }`}
                 >
@@ -280,7 +280,7 @@ const NameSearchPage = () => {
                       </div>
                     </div>
                   </div>
-                </a>
+                </Link>
                 <div className="product-listing_divider__aiMpd"></div>
               </div>
             ))}

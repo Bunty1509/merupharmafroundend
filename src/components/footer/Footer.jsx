@@ -77,9 +77,9 @@ const Footer = () => {
           {/* <p>
             <a href="/legal-policy">Terms of Use</a>
           </p> */}
-          <p style={{ visibility: "hidden", marginTop: "0px" }}>
+          {/* <p style={{ visibility: "hidden", marginTop: "0px" }}>
             <a href="/brands-with-us">Our Brands</a>
-          </p>
+          </p> */}
           <div className="MuiGrid-root Footer_MobilesocialIcons__lA0IC platinumrx-rfnosa">
             <h4>Follow us on</h4>
             <div
