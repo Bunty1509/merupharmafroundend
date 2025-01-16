@@ -94,7 +94,7 @@
   padding: 12px 8%;
   min-height: 70px;
   /* background: linear-gradient(0deg, #fff6f6 3.7%, #ffefef); */
-  background: linear-gradient(0deg, #036068 3.7%, #ffefef);
+  background: linear-gradient(0deg, #53b7e8 3.7%, #ffefef);
 }
 @media (max-width: 768px) {
   .Header_headerContainer__yOj4c {
@@ -176,9 +176,9 @@
 }
 .Header_wallet_money__5cXx9 {
   border-radius: 24px;
-  background: var(--Platinum-rx-Primary, #006068);
+  background: var(--Platinum-rx-Primary, #53b7e8);
   padding: 0 4px;
-  border: 1px solid var(--primary-color, #006068);
+  border: 1px solid var(--primary-color, #53b7e8);
   gap: 1px;
   font-size: 12px;
   color: #fff;
@@ -852,7 +852,7 @@
   width: 120px;
   height: 80px;
   background-color: hsla(0, 100%, 97%, 0.188);
-  border: 1px solid #006068;
+  border: 1px solid #53b7e8;
   border-radius: 8px;
   position: absolute;
   z-index: 2;
@@ -966,7 +966,7 @@
   }
 }
 .drug-pdp-item_genericunitPriceAnmiation__KCp26 {
-  background-color: #006068;
+  background-color: #53b7e8;
   color: #fff !important;
   padding: 4px;
 }
@@ -1069,7 +1069,7 @@
 }
 .drug-pdp-item_brandAndAssuredMobile__z40x8 {
   border-radius: 5px;
-  border: 1px solid var(--Platinum-rx-Primary, #006068);
+  border: 1px solid var(--Platinum-rx-Primary, #53b7e8);
   background: #fff;
   color: var(--Platinum-rx-Black, #031926);
   font-size: 12px;
@@ -1683,7 +1683,7 @@
   line-height: 20px;
 }
 .AddToCartDropdown_change-cart-btn__qbVs4 {
-  border: 1px solid #006068;
+  border: 1px solid #53b7e8;
   display: flex;
   align-items: center;
   border-radius: 8px;
@@ -1747,7 +1747,7 @@
   height: 20px;
 }
 .AddToCartDropdown_add-button__lqKLW button {
-  background-color: #006068 !important;
+  background-color: #53b7e8 !important;
   color: #fff !important;
   border-radius: 8px !important;
 }
@@ -1883,7 +1883,7 @@
   gap: 10px;
 }
 #DeleteModal_removeBtn__aYX8e {
-  border: 1px solid #006068;
+  border: 1px solid #53b7e8;
 }
 #DeleteModal_cancelBtn__u6slO,
 #DeleteModal_removeBtn__aYX8e {
@@ -1929,7 +1929,7 @@
   .Searchbar_searchBar__nvN1E {
     padding: 4px 10px 4px 12px;
     border-radius: 20px;
-    border: 1px solid var(--primary-color, #006068);
+    border: 1px solid var(--primary-color, #53b7e8);
   }
 }
 .Searchbar_activeSearch__IGH3V {
@@ -1937,7 +1937,7 @@
   background-color: #fff;
   border-radius: 80px;
   padding: 10px;
-  box-shadow: 2px 3px 6px 0 #006068;
+  box-shadow: 2px 3px 6px 0 #53b7e8;
   place-items: center;
 }
 @media (max-width: 768px) {
@@ -1954,7 +1954,7 @@
 @media (max-width: 768px) {
   .Searchbar_headerSearchBar__tOt_C {
     padding: 4px 10px 4px 12px;
-    border: 1px solid var(--primary-color, #006068);
+    border: 1px solid var(--primary-color, #53b7e8);
   }
 }
 .Searchbar_searchBarFB__LL9xS {
@@ -2116,7 +2116,7 @@
   cursor: pointer;
   margin-left: 0;
   font-size: 20px;
-  background-color: #036068;
+  background-color: #53b7e8;
   border: none;
   color: #fff;
 }
@@ -2435,7 +2435,7 @@
   gap: 10px;
 }
 #DeleteDrawer_removeBtn__KZCTp {
-  border: 1px solid #006068;
+  border: 1px solid #53b7e8;
 }
 #DeleteDrawer_cancelBtn__0jOM0,
 #DeleteDrawer_removeBtn__KZCTp {
@@ -2511,7 +2511,7 @@
   height: 18px;
 }
 .quantity_arrow__09dYH svg path {
-  fill: #006068;
+  fill: #53b7e8;
 }
 .quantity_num-dropdown__h0OrR {
   width: 180px;
@@ -2999,7 +2999,7 @@
   width: 100%;
 }
 .druglist-item_below_container__btn1__r9fMG {
-  background: var(--Platinum-rx-Primary, #006068);
+  background: var(--Platinum-rx-Primary, #53b7e8);
   color: #fff;
 }
 .druglist-item_below_container__btn1__r9fMG,
@@ -3015,8 +3015,8 @@
 }
 .druglist-item_below_container__btn2__kEBeJ {
   text-wrap: nowrap;
-  color: var(--Platinum-rx-Primary, #006068);
-  border: 1px solid var(--Platinum-rx-Primary, #006068);
+  color: var(--Platinum-rx-Primary, #53b7e8);
+  border: 1px solid var(--Platinum-rx-Primary, #53b7e8);
   background: var(--Platinum-rx-white, #fff);
 }
 .druglist-item_actionMessage__rJ2Zs {
@@ -3698,7 +3698,7 @@
 .address-details_change_btn__PqUSK {
   font-size: 12px;
   padding: 0 8px;
-  color: var(--primary-color, #006068) !important;
+  color: var(--primary-color, #53b7e8) !important;
 }
 @media (min-width: 768px) {
   .address-details_change_btn__PqUSK {
@@ -4125,7 +4125,7 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.25px;
-  color: #006068;
+  color: #53b7e8;
   cursor: pointer;
 }
 .coupon-section_coupon-box-bottom__YukoT:before {
@@ -4616,7 +4616,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #006068;
+  color: #53b7e8;
   cursor: pointer;
 }
 .coupon-card_coupon-card-dropdown__E8w6z div {
@@ -4629,7 +4629,7 @@
   transform: rotate(90deg);
 }
 .coupon-card_coupon-card-dropdown__E8w6z svg path {
-  fill: #006068;
+  fill: #53b7e8;
 }
 .coupon-card_coupon-state___SCZ3 {
   font-size: 14px;
@@ -4677,7 +4677,7 @@
 }
 .coupon-card_change-cart-btn__W1pCy,
 .coupon-card_dropdown__gHm4M {
-  border: 1px solid #006068;
+  border: 1px solid #53b7e8;
   border-radius: 4px;
 }
 .coupon-card_change-cart-btn__W1pCy {
@@ -4810,7 +4810,7 @@
   margin: -8px -4px -8px -8px;
 }
 .coin-and-cash_check_box__nb1Cn svg {
-  color: var(--primary-color, #006068);
+  color: var(--primary-color, #53b7e8);
 }
 .coin-and-cash_shipping_tooltip__Woei_ {
   color: var(--Flexipill-Black-500, #031926);
@@ -4998,7 +4998,7 @@
   overflow-wrap: break-word;
 }
 .OpenDrawer_edit_btn__OQZMg {
-  color: var(--Platinum-rx-Primary, #006068);
+  color: var(--Platinum-rx-Primary, #53b7e8);
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -5026,7 +5026,7 @@
   font-size: 16px;
 }
 .addressSection_addNewHeader__mMwBU {
-  color: var(--Platinum-rx-Primary, #006068);
+  color: var(--Platinum-rx-Primary, #53b7e8);
   font-style: normal;
   font-weight: 500;
   align-self: flex-end;
@@ -5179,7 +5179,7 @@
 .BottomNav_AdNav__w5OMq {
   height: 128px;
   border-radius: 16px 16px 0 0;
-  background: var(--primary-color, #006068);
+  background: var(--primary-color, #53b7e8);
   padding: 16px;
   display: block;
   text-align: center;
@@ -5196,7 +5196,7 @@
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 16px 16px 0 0;
-  background: var(--primary-color, #006068);
+  background: var(--primary-color, #53b7e8);
   padding: 10px 16px 16px;
   justify-content: flex-end;
 }
@@ -5238,7 +5238,7 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.25px;
-  color: #006068;
+  color: #53b7e8;
 }
 .BottomNav_doctor-img-div__npXWI {
   position: relative;
@@ -5286,7 +5286,7 @@
   align-items: center;
   padding: 16px;
   gap: auto;
-  background-color: var(--primary-color, #006068);
+  background-color: var(--primary-color, #53b7e8);
   color: var(--white, #fff);
   color: #fff;
   text-align: center;
@@ -5340,7 +5340,7 @@
   align-items: center;
   gap: 10px;
   border-radius: 8px;
-  background: var(--Platinum-rx-Primary, #006068);
+  background: var(--Platinum-rx-Primary, #53b7e8);
   margin-bottom: 12px;
   width: 264px;
 }
@@ -5362,12 +5362,12 @@
   gap: 10px;
   align-self: stretch;
   border-radius: 8px;
-  border: 1px solid var(--Platinum-rx-Primary, #006068);
+  border: 1px solid var(--Platinum-rx-Primary, #53b7e8);
   background: var(--Platinum-rx-white, #fff);
   width: 264px;
 }
 .EnableCODModale_CODbtnText__PGnh7 {
-  color: var(--Platinum-rx-Primary, #006068);
+  color: var(--Platinum-rx-Primary, #53b7e8);
   text-align: center;
   font-size: 18px;
   font-weight: 500;
@@ -5489,7 +5489,7 @@
   background: var(--Disabled-grey, #9f9f9f) !important;
 }
 .reOrderPopUpModal_default_btn__uTVWq {
-  background: var(--primary-color, #006068);
+  background: var(--primary-color, #53b7e8);
   color: var(--white);
   border-radius: 8px;
   padding: 8px 16px;
@@ -5893,9 +5893,9 @@
 }
 
 .pagination button.active {
-  background: #37757c;
+  background: #53b7e8;
   color: #fff;
-  border-color: #37757c;
+  border-color: #53b7e8;
 } */
 .pagination {
   display: flex;
@@ -5919,14 +5919,14 @@
 }
 
 .pagination-button.active {
-  background: #37757c;
+  background: #53b7e8;
   color: #fff;
-  border-color: #37757c;
+  border-color: #53b7e8;
 }
 
 .pagination-button:hover {
   background: #ffffff;
-  color: #37757c;
+  color: #53b7e8;
 }
 
 .pagination-arrow {

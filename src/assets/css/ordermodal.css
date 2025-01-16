@@ -86,7 +86,7 @@
   gap: 8px;
   align-items: center;
   cursor: pointer;
-  color: var(--primary-color, #006068);
+  color: var(--primary-color, #53b7e8);
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -144,7 +144,7 @@
   border-radius: 8px;
 }
 .LocationDrawer_view_more__m6fmd {
-  color: var(--primary-color, #006068);
+  color: var(--primary-color, #53b7e8);
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -167,7 +167,7 @@
 .LocationDrawer_add_pincode__button__zhc3K {
   padding: 8px;
   border-radius: 8px;
-  background: var(--primary-color, #006068);
+  background: var(--primary-color, #53b7e8);
   color: var(--white, #fff);
   font-size: 14px;
   font-weight: 400;
@@ -175,7 +175,7 @@
   letter-spacing: 0.25px;
 }
 .LocationDrawer_add_pincode__error__awiUV {
-  color: var(--primary-color, #006068);
+  color: var(--primary-color, #53b7e8);
   font-size: 14px;
   font-weight: 500;
 }
@@ -191,7 +191,7 @@
 .LocationDrawer_proceed_btn__F5auZ {
   padding: 8px;
   border-radius: 8px;
-  background: var(--primary-color, #006068);
+  background: var(--primary-color, #53b7e8);
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -221,7 +221,7 @@
 .LocationDrawer_container__qLdrk
   input:checked
   ~ .LocationDrawer_checkmark__RvWv_ {
-  border: 2.5px solid var(--primary-color, #006068);
+  border: 2.5px solid var(--primary-color, #53b7e8);
 }
 .LocationDrawer_checkmark__RvWv_:after {
   content: "";
@@ -239,5 +239,5 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--primary-color, #006068);
+  background: var(--primary-color, #53b7e8);
 }

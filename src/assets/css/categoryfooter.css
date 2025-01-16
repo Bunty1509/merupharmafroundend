@@ -76,8 +76,8 @@
   padding-left: 4px;
 }
 .druglist-item_itemHeading__cWGyl {
-  border-top: 1px solid var(--Platinum-rx-Primary, #006068);
-  background: var(--Platinum-rx-Primary, #256c73);
+  border-top: 1px solid var(--Platinum-rx-Primary, #53b7e8);
+  background: var(--Platinum-rx-Primary, #53b7e8);
   color: var(--white);
   padding: 6px 12px;
   border-radius: 8px 8px 0 0;
@@ -370,7 +370,7 @@
   }
 }
 .druglist-item_saltMobileContainer__0R4yP {
-  background: var(--Platinum-rx-Primary, #256c73);
+  background: var(--Platinum-rx-Primary, #53b7e8);
 }
 .druglist-item_saltMobileContainer__content__ILi6H {
   position: relative;
