@@ -12,9 +12,9 @@ const InputSuggesstions = ({
   const [searchResults, setSearchResults] = useState([]);
   const nav = useNavigate();
 
-  const routeProduct = (data) => {
+  const routeProduct = async (data) => {
     const encode = encodeURIComponent(data.name);
-    setSearchQuery(data.name);
+    await setSearchQuery(data.name);
     setDisplaySuggestions(false);
     nav(`/searchProduct/${encode}/${data.Product_id}`);
   };
